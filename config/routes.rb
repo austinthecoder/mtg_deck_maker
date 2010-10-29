@@ -1,4 +1,7 @@
-MtgDeckBuilder::Application.routes.draw do
+MtgDeckMaker::Application.routes.draw do
+
+  resources :sets, :as => 'mtg_sets', :only => %w(index new create)
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

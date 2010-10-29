@@ -4,4 +4,4 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
-MtgDeckBuilder::Application.load_tasks
+MtgDeckMaker::Application.load_tasks

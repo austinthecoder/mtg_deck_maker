@@ -1,0 +1,8 @@
+%h2 Add Set
+
+= simple_form_for @mtg_set do |f|
+  = f.error_messages
+  
+  = f.input :name
+  
+  = f.button :submit, 'Add this set'
