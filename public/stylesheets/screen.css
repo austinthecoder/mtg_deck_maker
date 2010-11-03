@@ -1,0 +1,783 @@
+/* line 1, ../../app/stylesheets/_reset.scss */
+html {
+  color: black;
+}
+
+/* line 4, ../../app/stylesheets/_reset.scss */
+body, div, dl, dt, dd, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, ../../app/stylesheets/_reset.scss */
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 13, ../../app/stylesheets/_reset.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* line 19, ../../app/stylesheets/_reset.scss */
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 23, ../../app/stylesheets/_reset.scss */
+code {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* line 29, ../../app/stylesheets/_reset.scss */
+form {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 33, ../../app/stylesheets/_reset.scss */
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* line 38, ../../app/stylesheets/_reset.scss */
+legend {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+/* line 43, ../../app/stylesheets/_reset.scss */
+input, textarea {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-size: 100%;
+}
+
+/* line 51, ../../app/stylesheets/_reset.scss */
+p, blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 55, ../../app/stylesheets/_reset.scss */
+th {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+
+/* line 62, ../../app/stylesheets/_reset.scss */
+td {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 66, ../../app/stylesheets/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 70, ../../app/stylesheets/_reset.scss */
+img {
+  border: 0;
+}
+
+/* line 73, ../../app/stylesheets/_reset.scss */
+address {
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* line 77, ../../app/stylesheets/_reset.scss */
+caption {
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+
+/* line 82, ../../app/stylesheets/_reset.scss */
+cite, dfn, em, strong, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* line 86, ../../app/stylesheets/_reset.scss */
+q:before, q:after {
+  content: "";
+}
+
+/* line 89, ../../app/stylesheets/_reset.scss */
+abbr, acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+/* line 93, ../../app/stylesheets/_reset.scss */
+sup {
+  vertical-align: text-top;
+}
+
+/* line 96, ../../app/stylesheets/_reset.scss */
+sub {
+  vertical-align: text-bottom;
+}
+
+/* line 99, ../../app/stylesheets/_reset.scss */
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-size: 100%;
+}
+
+/* #version 8.7.11 */
+/* line 3, ../../app/stylesheets/_base.scss */
+h1 {
+  font-size: 138.5%;
+  margin: 1em 0;
+  font-weight: bold;
+}
+
+/* line 8, ../../app/stylesheets/_base.scss */
+h2 {
+  font-size: 123.1%;
+  margin: 1em 0;
+  font-weight: bold;
+}
+
+/* line 13, ../../app/stylesheets/_base.scss */
+h3 {
+  font-size: 108%;
+  margin: 1em 0;
+  font-weight: bold;
+}
+
+/* line 18, ../../app/stylesheets/_base.scss */
+h4, h5, h6, strong {
+  font-weight: bold;
+}
+
+/* line 21, ../../app/stylesheets/_base.scss */
+abbr, acronym {
+  border-bottom: 1px dotted black;
+  cursor: help;
+}
+
+/* line 25, ../../app/stylesheets/_base.scss */
+em {
+  font-style: italic;
+}
+
+/* line 28, ../../app/stylesheets/_base.scss */
+blockquote {
+  margin: 1em;
+}
+
+/* line 31, ../../app/stylesheets/_base.scss */
+ul {
+  margin: 1em;
+  margin-left: 2em;
+}
+/* line 34, ../../app/stylesheets/_base.scss */
+ul li {
+  list-style: disc outside;
+}
+
+/* line 37, ../../app/stylesheets/_base.scss */
+ol {
+  margin: 1em;
+  margin-left: 2em;
+}
+/* line 40, ../../app/stylesheets/_base.scss */
+ol li {
+  list-style: decimal outside;
+}
+
+/* line 43, ../../app/stylesheets/_base.scss */
+dl {
+  margin: 1em;
+  margin-left: 2em;
+}
+/* line 46, ../../app/stylesheets/_base.scss */
+dl dd {
+  margin-left: 1em;
+}
+
+/* line 49, ../../app/stylesheets/_base.scss */
+th {
+  border: 1px solid black;
+  padding: 0.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* line 55, ../../app/stylesheets/_base.scss */
+td {
+  border: 1px solid black;
+  padding: 0.5em;
+}
+
+/* line 59, ../../app/stylesheets/_base.scss */
+caption {
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+/* line 63, ../../app/stylesheets/_base.scss */
+p, fieldset, table, pre {
+  margin-bottom: 1em;
+}
+
+/* line 66, ../../app/stylesheets/_base.scss */
+input[type=text], input[type=password], textarea {
+  width: 12.25em;
+  *width: 11.9em;
+}
+
+/* line 5, ../../app/stylesheets/_default.scss */
+.clear {
+  clear: both;
+  display: block;
+}
+
+/* line 9, ../../app/stylesheets/_default.scss */
+* {
+  line-height: 1.5em;
+}
+
+/* line 16, ../../app/stylesheets/_default.scss */
+a {
+  color: #3333ff;
+  outline: none;
+}
+
+/* line 20, ../../app/stylesheets/_default.scss */
+abbr {
+  border-bottom: 1px dotted #333333;
+}
+
+/* line 23, ../../app/stylesheets/_default.scss */
+acronym {
+  border-bottom: 1px dotted #333333;
+}
+
+/* line 26, ../../app/stylesheets/_default.scss */
+address {
+  font-style: italic;
+  margin: 0 0 1.5em 0;
+}
+
+/* line 30, ../../app/stylesheets/_default.scss */
+body {
+  color: #333333;
+  font-size: 62.5%;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+/* line 36, ../../app/stylesheets/_default.scss */
+blockquote {
+  font-size: 1em;
+  font-style: italic;
+  margin: 0 25px 1.5em 25px;
+}
+
+/* line 42, ../../app/stylesheets/_default.scss */
+button {
+  font: inherit;
+  width: auto;
+}
+
+/* line 46, ../../app/stylesheets/_default.scss */
+code, kbd, var, tt {
+  font-family: Monaco, monospace;
+}
+
+/* line 49, ../../app/stylesheets/_default.scss */
+cite, dfn {
+  font-style: italic;
+}
+
+/* line 52, ../../app/stylesheets/_default.scss */
+dd {
+  margin: 0 0 0.5em 0;
+}
+
+/* line 55, ../../app/stylesheets/_default.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 58, ../../app/stylesheets/_default.scss */
+dl {
+  margin: 0 0 1.5em 0;
+}
+
+/* line 61, ../../app/stylesheets/_default.scss */
+dt {
+  font-weight: bold;
+}
+
+/* line 64, ../../app/stylesheets/_default.scss */
+em {
+  font-style: italic;
+}
+
+/* line 67, ../../app/stylesheets/_default.scss */
+fieldset {
+  border: 1px solid #333333;
+  margin: 0 0 0.5em 0;
+  padding: 10px;
+}
+
+/* line 72, ../../app/stylesheets/_default.scss */
+form {
+  color: inherit;
+  font: inherit;
+}
+/* line 75, ../../app/stylesheets/_default.scss */
+form select optgroup {
+  color: #333333;
+  font-weight: bold;
+}
+/* line 78, ../../app/stylesheets/_default.scss */
+form input, form textarea {
+  color: #333333;
+  font-family: Helvetica, Arial, sans-serif;
+}
+/* line 81, ../../app/stylesheets/_default.scss */
+form input[type=text], form input[type=password] {
+  line-height: 1em;
+  padding: 2px;
+  width: auto;
+}
+/* line 85, ../../app/stylesheets/_default.scss */
+.msie form input[type=text], .msie form input[type=password] {
+  padding: 4px 2px 0 2px;
+}
+/* line 87, ../../app/stylesheets/_default.scss */
+form textarea {
+  overflow: auto;
+  padding: 3px 2px 2px 2px;
+  width: auto;
+}
+/* line 91, ../../app/stylesheets/_default.scss */
+form label {
+  font-weight: bold;
+}
+
+/* line 94, ../../app/stylesheets/_default.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.5em 0;
+}
+
+/* line 97, ../../app/stylesheets/_default.scss */
+h1 {
+  font-size: 2.4em;
+}
+
+/* line 100, ../../app/stylesheets/_default.scss */
+h2 {
+  font-size: 1.9em;
+}
+
+/* line 103, ../../app/stylesheets/_default.scss */
+h3 {
+  font-size: 1.5em;
+}
+
+/* line 106, ../../app/stylesheets/_default.scss */
+h4 {
+  font-size: 1.2em;
+}
+
+/* line 109, ../../app/stylesheets/_default.scss */
+h5 {
+  font-size: 1em;
+}
+
+/* line 112, ../../app/stylesheets/_default.scss */
+h6 {
+  font-size: 0.9em;
+}
+
+/* line 115, ../../app/stylesheets/_default.scss */
+iframe {
+  border: 1px solid #dddddd;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #eeeeee;
+}
+
+/* line 120, ../../app/stylesheets/_default.scss */
+ins {
+  text-decoration: underline;
+}
+
+/* line 123, ../../app/stylesheets/_default.scss */
+legend {
+  color: #333333;
+  padding: 0 5px;
+}
+
+/* line 127, ../../app/stylesheets/_default.scss */
+ol {
+  margin: 0 0 1.5em 25px;
+}
+/* line 129, ../../app/stylesheets/_default.scss */
+ol li {
+  list-style-type: decimal;
+}
+/* line 131, ../../app/stylesheets/_default.scss */
+ol ol {
+  margin-bottom: 0;
+}
+
+/* line 134, ../../app/stylesheets/_default.scss */
+p {
+  margin: 0 0 1.5em 0;
+}
+
+/* line 137, ../../app/stylesheets/_default.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 140, ../../app/stylesheets/_default.scss */
+table {
+  margin: 0;
+}
+/* line 142, ../../app/stylesheets/_default.scss */
+table th, table td {
+  border: none;
+  padding: 5px 10px;
+}
+/* line 145, ../../app/stylesheets/_default.scss */
+table th {
+  text-align: left;
+  vertical-align: bottom;
+}
+/* line 148, ../../app/stylesheets/_default.scss */
+table td {
+  vertical-align: top;
+}
+/* line 151, ../../app/stylesheets/_default.scss */
+table tbody th, table tfoot th {
+  vertical-align: top;
+}
+
+/* line 154, ../../app/stylesheets/_default.scss */
+ul {
+  margin: 0 0 1.5em 25px;
+}
+/* line 156, ../../app/stylesheets/_default.scss */
+ul ul {
+  margin-bottom: 0;
+}
+
+/* line 1, ../../app/stylesheets/_forms.scss */
+form {
+  background: #eee;
+  padding: 20px 30px;
+}
+
+/* line 7, ../../app/stylesheets/_forms.scss */
+.simple_form label {
+  display: block;
+}
+/* line 9, ../../app/stylesheets/_forms.scss */
+.simple_form label abbr {
+  border: none;
+}
+/* line 14, ../../app/stylesheets/_forms.scss */
+.simple_form .input {
+  margin-bottom: 10px;
+}
+/* line 18, ../../app/stylesheets/_forms.scss */
+.simple_form .input .check_boxes label {
+  display: inline;
+  font-weight: normal;
+  margin: 0 10px 0 0;
+}
+/* line 26, ../../app/stylesheets/_forms.scss */
+.simple_form div.boolean, .simple_form input[type='submit'] {
+  margin-left: 120px;
+}
+/* line 30, ../../app/stylesheets/_forms.scss */
+.simple_form div.boolean label, .simple_form label.collection_radio {
+  float: none;
+  margin: 0;
+}
+/* line 35, ../../app/stylesheets/_forms.scss */
+.simple_form label.collection_radio {
+  margin-right: 10px;
+  margin-left: 2px;
+}
+/* line 40, ../../app/stylesheets/_forms.scss */
+.simple_form .error {
+  color: #D00;
+  display: block;
+  font-size: 12px;
+}
+/* line 46, ../../app/stylesheets/_forms.scss */
+.simple_form .hint {
+  color: #555;
+  display: block;
+  font-size: 12px;
+  font-style: italic;
+}
+
+/* line 1, ../../app/stylesheets/_tables.scss */
+table.data {
+  border: 1px solid #ddd;
+}
+/* line 3, ../../app/stylesheets/_tables.scss */
+table.data thead {
+  border-bottom: 1px solid #dddddd;
+}
+/* line 5, ../../app/stylesheets/_tables.scss */
+table.data thead tr {
+  background: none;
+}
+/* line 8, ../../app/stylesheets/_tables.scss */
+table.data tbody tr.even, table.data tfoot tr.even {
+  background: white;
+}
+/* line 10, ../../app/stylesheets/_tables.scss */
+table.data tbody tr.odd, table.data tfoot tr.odd {
+  background: #f5f5f5;
+}
+
+/* line 14, ../../app/stylesheets/_tables.scss */
+table.info tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+/* line 18, ../../app/stylesheets/_tables.scss */
+td.date, th.date {
+  white-space: nowrap;
+}
+/* line 20, ../../app/stylesheets/_tables.scss */
+td.currency, th.currency {
+  text-align: right;
+}
+/* line 22, ../../app/stylesheets/_tables.scss */
+td.human_name, th.human_name {
+  white-space: nowrap;
+}
+/* line 24, ../../app/stylesheets/_tables.scss */
+td.bool, th.bool {
+  text-align: center;
+}
+/* line 26, ../../app/stylesheets/_tables.scss */
+td.checkbox, th.checkbox {
+  text-align: center;
+}
+/* line 28, ../../app/stylesheets/_tables.scss */
+td.actions, th.actions {
+  white-space: nowrap;
+}
+/* line 30, ../../app/stylesheets/_tables.scss */
+td.table, th.table {
+  padding: 0;
+}
+
+/* line 2, ../../app/stylesheets/_buttons.scss */
+* html button.btn {
+  padding-bottom: 1px;
+}
+/* line 5, ../../app/stylesheets/_buttons.scss */
+* html .btn span {
+  padding-top: 0;
+}
+/* line 7, ../../app/stylesheets/_buttons.scss */
+* html .btn b {
+  top: 1px;
+}
+
+/* line 11, ../../app/stylesheets/_buttons.scss */
+html:not([lang*=""]) button.btn {
+  margin: 0 -3px;
+}
+
+/* line 14, ../../app/stylesheets/_buttons.scss */
+.btn {
+  background: none;
+  border-width: 0;
+  display: inline-block;
+  margin: 0;
+  overflow: visible;
+  padding: 3px 0;
+  text-decoration: none;
+  color: #333333 !important;
+}
+/* line 23, ../../app/stylesheets/_buttons.scss */
+.btn b {
+  background: #e3e3e3;
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 40%;
+  border-top: 3px solid #eeeeee;
+}
+/* line 33, ../../app/stylesheets/_buttons.scss */
+.btn u {
+  text-decoration: none;
+  position: relative;
+  z-index: 3;
+}
+/* line 37, ../../app/stylesheets/_buttons.scss */
+.btn span {
+  background: #f9f9f9;
+  z-index: 1;
+  margin: 0;
+  padding: 3px 0;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #bbbbbb;
+}
+/* line 44, ../../app/stylesheets/_buttons.scss */
+.btn span span {
+  background: none;
+  position: relative;
+  padding: 3px 1em;
+  border-width: 0;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #bbbbbb;
+}
+
+/* line 53, ../../app/stylesheets/_buttons.scss */
+.btn:hover span {
+  cursor: pointer;
+  border-color: #99ccff !important;
+  color: black;
+}
+/* line 57, ../../app/stylesheets/_buttons.scss */
+.btn:hover span span {
+  cursor: pointer;
+  border-color: #99ccff !important;
+  color: black;
+}
+
+/* line 62, ../../app/stylesheets/_buttons.scss */
+button {
+  font-weight: bold;
+}
+
+/* line 67, ../../app/stylesheets/_buttons.scss */
+.btn.pill-l span {
+  border-right-width: 0;
+}
+/* line 69, ../../app/stylesheets/_buttons.scss */
+.btn.pill-l span span {
+  border-right: 1px solid #cccccc;
+}
+/* line 72, ../../app/stylesheets/_buttons.scss */
+.btn.pill-c span {
+  border-right-style: none;
+  border-left-color: white;
+}
+/* line 75, ../../app/stylesheets/_buttons.scss */
+.btn.pill-c span span {
+  border-right: 1px solid #cccccc;
+}
+/* line 78, ../../app/stylesheets/_buttons.scss */
+.btn.pill-r span {
+  border-left-color: white;
+}
+
+/* line 8, ../../app/stylesheets/screen.scss */
+body {
+  font-size: 13px;
+  padding: 20px 30px;
+}
+
+/* line 13, ../../app/stylesheets/screen.scss */
+#cards {
+  border: none;
+  font-size: .9em;
+}
+/* line 18, ../../app/stylesheets/screen.scss */
+#cards thead tr {
+  border-bottom: 1px solid #ddd;
+  color: #999;
+  text-transform: uppercase;
+}
+/* line 25, ../../app/stylesheets/screen.scss */
+#cards tbody tr {
+  background: #ccc;
+  border-bottom: 1px solid white;
+}
+/* line 31, ../../app/stylesheets/screen.scss */
+#cards .rarity, #cards .power, #cards .toughness {
+  text-align: center;
+}
+/* line 34, ../../app/stylesheets/screen.scss */
+#cards .mana_cost {
+  text-align: right;
+}
+/* line 37, ../../app/stylesheets/screen.scss */
+#cards .mtg_set {
+  white-space: nowrap;
+}
+/* line 41, ../../app/stylesheets/screen.scss */
+#cards .rules_text div {
+  height: 1.5em;
+  overflow: hidden;
+}
+/* line 48, ../../app/stylesheets/screen.scss */
+#cards .black, #cards .red, #cards .green, #cards .blue {
+  color: #fff;
+}
+/* line 51, ../../app/stylesheets/screen.scss */
+#cards .black a, #cards .red a, #cards .green a, #cards .blue a {
+  color: #ccf;
+}
+/* line 55, ../../app/stylesheets/screen.scss */
+#cards .black {
+  background: #000;
+  border-bottom-color: #333333;
+}
+/* line 59, ../../app/stylesheets/screen.scss */
+#cards .red {
+  background: #c33;
+  border-bottom-color: #db7070;
+}
+/* line 63, ../../app/stylesheets/screen.scss */
+#cards .green {
+  background: #383;
+  border-bottom-color: #4cbc4c;
+}
+/* line 67, ../../app/stylesheets/screen.scss */
+#cards .blue {
+  background: #33c;
+  border-bottom-color: #7070db;
+}
+/* line 72, ../../app/stylesheets/screen.scss */
+#cards .white {
+  background: #fff;
+  border-bottom-color: #d9d9d9;
+}
+/* line 76, ../../app/stylesheets/screen.scss */
+#cards .gold {
+  background: #f0f000;
+  border-bottom-color: #bdbd00;
+}

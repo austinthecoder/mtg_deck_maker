@@ -1,0 +1,23 @@
+%h2 Sets
+
+- sets = MtgSet.order('released_at DESC')
+
+- unless sets.empty?
+  %p
+    = link_to 'add a set', new_mtg_set_path
+
+  %table#mtg_sets.data
+    %thead
+      %tr
+        %th Name
+        %th Date Released
+        %th 
+    %tbody
+      - MtgSet.all.each do |s|
+        = content_tag_for(:tr, s, :class => cycle(:odd, :even)) do
+          %td= s.name
+          %td= s.released_at.strftime("%b %d, %Y")
+          %td
+- else
+  %h3 There are no sets!
+  %p= link_to "Add a set", new_mtg_set_path

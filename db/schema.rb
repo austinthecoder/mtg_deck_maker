@@ -10,7 +10,22 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101028185547) do
+ActiveRecord::Schema.define(:version => 20101102040215) do
+
+  create_table "cards", :force => true do |t|
+    t.string   "name"
+    t.string   "colors"
+    t.string   "mana_cost"
+    t.string   "rarity"
+    t.string   "type_line"
+    t.text     "rules_text"
+    t.integer  "mtg_set_id"
+    t.integer  "number"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "power"
+    t.string   "toughness"
+  end
 
   create_table "formats", :force => true do |t|
     t.string   "name"
@@ -25,8 +40,11 @@ ActiveRecord::Schema.define(:version => 20101028185547) do
 
   create_table "mtg_sets", :force => true do |t|
     t.string   "name"
+    t.datetime "released_at"
+    t.integer  "num_cards"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "code"
   end
 
 end

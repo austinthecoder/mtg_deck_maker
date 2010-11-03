@@ -1,0 +1,52 @@
+form {
+  background: #eee;
+  padding: 20px 30px;
+}
+
+.simple_form {
+  label {
+    display: block;
+    abbr {
+      border: none;
+    }
+  }
+
+  .input {
+    margin-bottom: 10px;
+    
+    .check_boxes {
+      label {
+        display: inline;
+        font-weight: normal;
+        margin: 0 10px 0 0;
+      }
+    }
+  }
+
+  div.boolean, input[type='submit'] {
+    margin-left: 120px;
+  }
+
+  div.boolean label, label.collection_radio {
+    float: none;
+    margin: 0;
+  }
+
+  label.collection_radio {
+    margin-right: 10px;
+    margin-left: 2px;
+  }
+
+  .error {
+    color: #D00;
+    display: block;
+    font-size: 12px;
+  }
+
+  .hint {
+    color: #555;
+    display: block;
+    font-size: 12px;
+    font-style: italic;
+  }
+}

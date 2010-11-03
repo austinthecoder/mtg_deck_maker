@@ -1,0 +1,80 @@
+@import 'reset';
+@import 'base';
+@import 'default';
+@import 'forms';
+@import 'tables';
+@import 'buttons';
+
+body {
+  font-size: 13px;
+  padding: 20px 30px;
+}
+
+#cards {
+  border: none;
+  font-size: .9em;
+
+  thead {
+    tr {
+      border-bottom: 1px solid #ddd;
+      color: #999;
+      text-transform: uppercase;
+    }
+  }
+  tbody {
+    tr {
+      background: #ccc;
+      border-bottom: 1px solid lighten(#ccc, 20%);
+    }
+  }
+
+  .rarity, .power, .toughness {
+    text-align: center;
+  }
+  .mana_cost {
+    text-align: right;
+  }
+  .mtg_set {
+    white-space: nowrap;
+  }
+  .rules_text {
+    div {
+      height: 1.5em;
+      overflow: hidden;
+    }
+  }
+
+
+  .black, .red, .green, .blue {
+    color: #fff;
+
+    a {
+      color: #ccf;
+    }
+  }
+  .black {
+    background: #000;
+    border-bottom-color: lighten(#000, 20%);
+  }
+  .red {
+    background: #c33;
+    border-bottom-color: lighten(#c33, 15%);
+  }
+  .green {
+    background: #383;
+    border-bottom-color: lighten(#383, 15%);
+  }
+  .blue {
+    background: #33c;
+    border-bottom-color: lighten(#33c, 15%);
+  }
+
+  .white {
+    background: #fff;
+    border-bottom-color: darken(#fff, 15%);
+  }
+  .gold {
+    background: #f0f000;
+    border-bottom-color: darken(#f0f000, 10%);
+  }
+}

@@ -1,0 +1,38 @@
+%h2 Cards
+
+%p= link_to "Add a card", new_card_path
+
+- unless @cards.empty?
+  %table#cards.data
+    %thead
+      %tr
+        %th.name Name
+        %th.mtg_set Set
+        %th.mana_cost Cost
+        %th.conv_mana_cost Conv. Cost
+        %th.rarity Rarity
+        %th.type Type
+        %th.subtype Subtype
+        %th.rules_text Rules Text
+        %th.power Pow.
+        %th.toughness Tgh.
+        %th
+    %tbody
+      - @cards.sort_by { |c| c.rarity }.each do |c|
+        - type_line_parts = c.type_line.split('-').map(&:strip)
+        = content_tag_for(:tr, c, :class => (c.colors_array.size > 1) ? 'gold' : c.colors) do
+          %td.name= c.name
+          %td.mtg_set= c.mtg_set.code
+          %td.mana_cost= c.mana_cost
+          %td.conv_mana_cost= c.mana_cost.converted
+          %td.rarity= c.rarity.to_s(:short)
+          %td.type= type_line_parts[0]
+          %td.subtype= type_line_parts[1]
+          %td.rules_text
+            %div= c.rules_text
+          %td.power= c.power
+          %td.toughness= c.toughness
+          %td
+            = link_to 'edit', ''
+- else
+  %h3 There are no cards!

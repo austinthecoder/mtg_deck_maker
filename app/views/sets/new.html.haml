@@ -5,4 +5,15 @@
   
   = f.input :name
   
-  = f.button :submit, 'Add this set'
+  = f.input :released_at, :as => :date, :label => 'Date released'
+  
+  = f.input :num_cards, :label => 'Number of cards'
+  
+  = f.association :formats,
+    :required => true,
+    :as => :select,
+    :hint => 'this is only format supported as this time',
+    :include_blank => false,
+    :input_html => {:multiple => nil, :size => 1}
+  
+  = submit_button 'Add this set'

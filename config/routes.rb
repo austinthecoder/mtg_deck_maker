@@ -1,6 +1,12 @@
 MtgDeckMaker::Application.routes.draw do
 
-  resources :sets, :as => 'mtg_sets', :only => %w(index new create)
+  root :to => redirect("/decks/new")
+
+  resources :sets, :as => 'mtg_sets', :except => %w(show edit update destroy)
+
+  resources :cards, :except => %w(show edit update destroy)
+
+  resources :decks, :except => %w(index show create edit update destroy)
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

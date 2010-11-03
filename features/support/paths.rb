@@ -14,6 +14,15 @@ module NavigationHelpers
     when /the new set page/
       new_mtg_set_path
 
+    when /the sets page/
+      mtg_sets_path
+
+    when /the new card page/
+      new_card_path
+
+    when /the new deck page/
+      new_deck_path
+
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #
