@@ -8,6 +8,7 @@ gem 'simple_form', '1.2.2'
 gem 'dynamic_form', '1.1.3'
 gem 'compass', '0.10.6'
 gem 'mtg', '0.0.3'
+gem 'heroku'
 
 group :development, :test do
   gem 'rspec-rails'
