@@ -75,6 +75,11 @@ class Card < ActiveRecord::Base
     self[:rarity]
   end
 
+  # TODO: test
+  def rules_text_html
+    rules_text ? rules_text.gsub(/\n/, '<br />') : ''
+  end
+
   ##################################################
   private
 

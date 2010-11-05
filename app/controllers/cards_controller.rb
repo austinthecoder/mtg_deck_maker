@@ -8,7 +8,7 @@ class CardsController < ApplicationController
   ##################################################
 
   def index
-    @cards = Card.includes(:mtg_set).order('mana_cost ASC')
+    @cards = Card.includes(:mtg_set).order('name ASC')
   end
 
   def create

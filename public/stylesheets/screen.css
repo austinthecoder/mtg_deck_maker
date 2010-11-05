@@ -738,76 +738,29 @@ a {
   margin: 0;
 }
 
-/* line 1, ../../app/stylesheets/_cards.scss */
-.card {
-  background: #ccc;
-}
-/* line 4, ../../app/stylesheets/_cards.scss */
-.card.black, .card.red, .card.green, .card.blue {
-  color: #fff;
-}
-/* line 7, ../../app/stylesheets/_cards.scss */
-.card.black a, .card.red a, .card.green a, .card.blue a {
-  color: #ccf;
-}
-/* line 11, ../../app/stylesheets/_cards.scss */
-.card.black {
-  background: #000;
-  border-bottom-color: #333333;
-}
-/* line 15, ../../app/stylesheets/_cards.scss */
-.card.red {
-  background: #c33;
-  border-bottom-color: #db7070;
-}
-/* line 19, ../../app/stylesheets/_cards.scss */
-.card.green {
-  background: #383;
-  border-bottom-color: #4cbc4c;
-}
-/* line 23, ../../app/stylesheets/_cards.scss */
-.card.blue {
-  background: #33c;
-  border-bottom-color: #7070db;
-}
-/* line 27, ../../app/stylesheets/_cards.scss */
-.card.white {
-  background: #fff;
-  border-bottom-color: #d9d9d9;
-}
-/* line 31, ../../app/stylesheets/_cards.scss */
-.card.gold {
-  background: #f0f000;
-  border-bottom-color: #bdbd00;
-}
-/* line 36, ../../app/stylesheets/_cards.scss */
+/* line 2, ../../app/stylesheets/_cards.scss */
 .card .rarity, .card .power, .card .toughness {
   text-align: center;
 }
-/* line 39, ../../app/stylesheets/_cards.scss */
+/* line 5, ../../app/stylesheets/_cards.scss */
 .card .mana_cost {
   text-align: right;
 }
-/* line 42, ../../app/stylesheets/_cards.scss */
+/* line 8, ../../app/stylesheets/_cards.scss */
 .card .mtg_set {
   white-space: nowrap;
 }
 
-/* line 54, ../../app/stylesheets/_cards.scss */
-tbody tr.card {
-  border-bottom: 1px solid white;
-}
-
-/* line 59, ../../app/stylesheets/_cards.scss */
+/* line 13, ../../app/stylesheets/_cards.scss */
 form.card {
   background: #eee;
 }
 
-/* line 65, ../../app/stylesheets/_cards.scss */
+/* line 19, ../../app/stylesheets/_cards.scss */
 table#cards {
   border: none;
 }
-/* line 69, ../../app/stylesheets/_cards.scss */
+/* line 23, ../../app/stylesheets/_cards.scss */
 table#cards thead tr {
   border-bottom: 1px solid #ddd;
   color: #999;

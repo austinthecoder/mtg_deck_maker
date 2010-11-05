@@ -18,9 +18,9 @@
         %th.toughness Tgh.
         %th
     %tbody
-      - @cards.sort_by { |c| c.rarity }.each do |c|
-        - type_line_parts = c.type_line.split('-').map(&:strip)
-        = content_tag_for(:tr, c, :class => card_css_classes_string(c)) do
+      - @cards.each do |c|
+        - type_line_parts = c.type_line.split('—').map(&:strip)
+        = content_tag_for(:tr, c, :class => [card_css_classes_string(c), cycle(:odd, :even)].join(' ')) do
           %td.name= link_to c.name, card_path(c)
           %td.mtg_set= c.mtg_set.code
           %td.mana_cost= c.mana_cost
@@ -28,8 +28,7 @@
           %td.rarity= c.rarity.to_s(:short)
           %td.type= type_line_parts[0]
           %td.subtype= type_line_parts[1]
-          %td.rules_text
-            %div= c.rules_text
+          %td.rules_text= raw(c.rules_text_html)
           %td.power= c.power
           %td.toughness= c.toughness
           %td
