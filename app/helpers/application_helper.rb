@@ -6,4 +6,8 @@ module ApplicationHelper
     content_tag(:button, %(<span><span><b>&nbsp;</b><u>#{name}</u></span></span>).html_safe, options)
   end
 
+  def card_css_classes_string(card)
+    card.colors_array.size > 1 ? 'gold' : card.colors
+  end
+
 end

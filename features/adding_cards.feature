@@ -1,7 +1,15 @@
-Feature: Cards
+Feature: Adding Cards
+
+  Scenario: Trying to add a card when no sets exist
+    When I go to the new card page
+    Then I should see "There are no sets!"
+    And I should see "Cards belong to sets and none have been added yet."
+    And I should see "Add a set"
+
+
 
   Scenario: Adding a valid card
-    Given the SOM set has been added
+    Given the "SOM" set has been added
 
     When I go to the new card page
     And I fill in the following:
@@ -9,7 +17,7 @@ Feature: Cards
       | Mana cost       | 3WU                   |
       | Type            | Planeswalker — Venser |
       | Number          | 135                   |
-      | Power/Toughness | 3/5                   |
+      | Loyalty         | 3                     |
     And I fill in "Rules text" with:
       """
       +2: Exile target permanent you own. Return it to the battlefield under your control at the beginning of the next end step.
@@ -25,16 +33,8 @@ Feature: Cards
 
 
 
-  Scenario: Trying to add a card when no sets exist
-    When I go to the new card page
-    Then I should see "There are no sets!"
-    And I should see "Cards belong to sets and none have been added yet."
-    And I should see "Add a set"
-
-
-
   Scenario: Adding an invalid card
-    Given the SOM set has been added
+    Given the "SOM" set has been added
 
     When I go to the new card page
     And I press "Add this card"
@@ -48,10 +48,3 @@ Feature: Cards
     And I press "Add this card"
     Then I should see "Mana cost has invalid format"
     Then I should see "Number is too high (the set contains 249 cards)"
-
-
-
-  Scenario: Viewing all cards when there are none
-    When I go to the cards page
-    Then I should see "There are no cards!"
-    And I should see "Add a card"

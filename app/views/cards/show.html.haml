@@ -1,0 +1,31 @@
+%h2 Card Info.
+
+%p
+  = link_to 'edit this card', edit_card_path(@card)
+
+= content_tag_for(:table, @card, :class => card_css_classes_string(@card)) do
+  %tbody
+    %tr
+      %th Name
+      %td= @card.name
+    %tr
+      %th Mana Cost
+      %td= @card.mana_cost
+    %tr
+      %th Type
+      %td= @card.type_line
+    %tr
+      %th Rules Text
+      %td= simple_format(@card.rules_text)
+    %tr
+      %th Power/Tough.
+      %td= @card.power_and_toughness
+    %tr
+      %th Loyalty
+      %td= @card.loyalty
+    %tr
+      %th Rarity
+      %td= @card.rarity.to_s.titleize
+    %tr
+      %th Set
+      %td= link_to @card.mtg_set.name, mtg_set_path(@card.mtg_set)

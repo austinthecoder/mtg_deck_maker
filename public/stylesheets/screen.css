@@ -704,80 +704,112 @@ button {
   border-left-color: white;
 }
 
-/* line 8, ../../app/stylesheets/screen.scss */
+/* line 1, ../../app/stylesheets/_elements.scss */
 body {
+  border-top: 10px solid #933;
+  font-color: #333333;
   font-size: 13px;
   padding: 20px 30px;
 }
 
-/* line 13, ../../app/stylesheets/screen.scss */
-#cards {
-  border: none;
-  font-size: .9em;
+/* line 8, ../../app/stylesheets/_elements.scss */
+a {
+  color: #3333ff;
 }
-/* line 18, ../../app/stylesheets/screen.scss */
-#cards thead tr {
-  border-bottom: 1px solid #ddd;
-  color: #999;
-  text-transform: uppercase;
+
+/* line 3, ../../app/stylesheets/_structure.scss */
+#header h1 a {
+  color: inherit;
+  text-decoration: none;
 }
-/* line 25, ../../app/stylesheets/screen.scss */
-#cards tbody tr {
+/* line 6, ../../app/stylesheets/_structure.scss */
+#header h1 a:hover {
+  color: #3333ff;
+}
+
+/* line 13, ../../app/stylesheets/_structure.scss */
+#menu {
+  background: #eee;
+  margin: 0 0 20px 0;
+  padding: 10px 20px;
+}
+/* line 18, ../../app/stylesheets/_structure.scss */
+#menu p {
+  margin: 0;
+}
+
+/* line 1, ../../app/stylesheets/_cards.scss */
+.card {
   background: #ccc;
-  border-bottom: 1px solid white;
 }
-/* line 31, ../../app/stylesheets/screen.scss */
-#cards .rarity, #cards .power, #cards .toughness {
-  text-align: center;
-}
-/* line 34, ../../app/stylesheets/screen.scss */
-#cards .mana_cost {
-  text-align: right;
-}
-/* line 37, ../../app/stylesheets/screen.scss */
-#cards .mtg_set {
-  white-space: nowrap;
-}
-/* line 41, ../../app/stylesheets/screen.scss */
-#cards .rules_text div {
-  height: 1.5em;
-  overflow: hidden;
-}
-/* line 48, ../../app/stylesheets/screen.scss */
-#cards .black, #cards .red, #cards .green, #cards .blue {
+/* line 4, ../../app/stylesheets/_cards.scss */
+.card.black, .card.red, .card.green, .card.blue {
   color: #fff;
 }
-/* line 51, ../../app/stylesheets/screen.scss */
-#cards .black a, #cards .red a, #cards .green a, #cards .blue a {
+/* line 7, ../../app/stylesheets/_cards.scss */
+.card.black a, .card.red a, .card.green a, .card.blue a {
   color: #ccf;
 }
-/* line 55, ../../app/stylesheets/screen.scss */
-#cards .black {
+/* line 11, ../../app/stylesheets/_cards.scss */
+.card.black {
   background: #000;
   border-bottom-color: #333333;
 }
-/* line 59, ../../app/stylesheets/screen.scss */
-#cards .red {
+/* line 15, ../../app/stylesheets/_cards.scss */
+.card.red {
   background: #c33;
   border-bottom-color: #db7070;
 }
-/* line 63, ../../app/stylesheets/screen.scss */
-#cards .green {
+/* line 19, ../../app/stylesheets/_cards.scss */
+.card.green {
   background: #383;
   border-bottom-color: #4cbc4c;
 }
-/* line 67, ../../app/stylesheets/screen.scss */
-#cards .blue {
+/* line 23, ../../app/stylesheets/_cards.scss */
+.card.blue {
   background: #33c;
   border-bottom-color: #7070db;
 }
-/* line 72, ../../app/stylesheets/screen.scss */
-#cards .white {
+/* line 27, ../../app/stylesheets/_cards.scss */
+.card.white {
   background: #fff;
   border-bottom-color: #d9d9d9;
 }
-/* line 76, ../../app/stylesheets/screen.scss */
-#cards .gold {
+/* line 31, ../../app/stylesheets/_cards.scss */
+.card.gold {
   background: #f0f000;
   border-bottom-color: #bdbd00;
+}
+/* line 36, ../../app/stylesheets/_cards.scss */
+.card .rarity, .card .power, .card .toughness {
+  text-align: center;
+}
+/* line 39, ../../app/stylesheets/_cards.scss */
+.card .mana_cost {
+  text-align: right;
+}
+/* line 42, ../../app/stylesheets/_cards.scss */
+.card .mtg_set {
+  white-space: nowrap;
+}
+
+/* line 54, ../../app/stylesheets/_cards.scss */
+tbody tr.card {
+  border-bottom: 1px solid white;
+}
+
+/* line 59, ../../app/stylesheets/_cards.scss */
+form.card {
+  background: #eee;
+}
+
+/* line 65, ../../app/stylesheets/_cards.scss */
+table#cards {
+  border: none;
+}
+/* line 69, ../../app/stylesheets/_cards.scss */
+table#cards thead tr {
+  border-bottom: 1px solid #ddd;
+  color: #999;
+  text-transform: uppercase;
 }

@@ -20,6 +20,12 @@ module NavigationHelpers
     when /the new card page/
       new_card_path
 
+    when /the edit page for that card/
+      edit_card_path(@card)
+
+    when /that card's page/
+      card_path(@card)
+
     when /the new deck page/
       new_deck_path
 

@@ -20,8 +20,8 @@
     %tbody
       - @cards.sort_by { |c| c.rarity }.each do |c|
         - type_line_parts = c.type_line.split('-').map(&:strip)
-        = content_tag_for(:tr, c, :class => (c.colors_array.size > 1) ? 'gold' : c.colors) do
-          %td.name= c.name
+        = content_tag_for(:tr, c, :class => card_css_classes_string(c)) do
+          %td.name= link_to c.name, card_path(c)
           %td.mtg_set= c.mtg_set.code
           %td.mana_cost= c.mana_cost
           %td.conv_mana_cost= c.mana_cost.converted
@@ -33,6 +33,6 @@
           %td.power= c.power
           %td.toughness= c.toughness
           %td
-            = link_to 'edit', ''
+            = link_to 'edit', edit_card_path(c)
 - else
   %h3 There are no cards!

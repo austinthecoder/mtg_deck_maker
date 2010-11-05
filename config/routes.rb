@@ -2,9 +2,9 @@ MtgDeckMaker::Application.routes.draw do
 
   root :to => redirect("/decks/new")
 
-  resources :sets, :as => 'mtg_sets', :except => %w(show edit update destroy)
+  resources :sets, :as => 'mtg_sets', :except => %w(edit update destroy)
 
-  resources :cards, :except => %w(show edit update destroy)
+  resources :cards, :except => %w(destroy)
 
   resources :decks, :except => %w(index show create edit update destroy)
 
