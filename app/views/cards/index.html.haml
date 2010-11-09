@@ -6,15 +6,15 @@
   %table#cards.data
     %thead
       %tr
-        %th.name= link_to 'Name', cards_path(:sort => 'Name')
+        %th.name= link_to 'Name', cards_path(:sort => 'Name', :page => params[:page])
         %th.mtg_set Set
         %th.mana_cost Cost
-        %th.conv_mana_cost= link_to 'Conv. Cost', cards_path(:sort => 'Conv. Cost')
-        %th.rarity= link_to 'Rarity', cards_path(:sort => 'Rarity')
-        %th.type= link_to 'Type', cards_path(:sort => 'Type')
+        %th.conv_mana_cost= link_to 'Conv. Cost', cards_path(:sort => 'Conv. Cost', :page => params[:page])
+        %th.rarity= link_to 'Rarity', cards_path(:sort => 'Rarity', :page => params[:page])
+        %th.type= link_to 'Type', cards_path(:sort => 'Type', :page => params[:page])
         %th.rules_text Rules Text
-        %th.power= link_to 'Pow.', cards_path(:sort => 'Pow.')
-        %th.toughness= link_to 'Tgh.', cards_path(:sort => 'Tgh.')
+        %th.power= link_to 'Pow.', cards_path(:sort => 'Pow.', :page => params[:page])
+        %th.toughness= link_to 'Tgh.', cards_path(:sort => 'Tgh.', :page => params[:page])
         %th
     %tbody
       - @cards.each do |c|
@@ -30,5 +30,6 @@
           %td.toughness= c.toughness
           %td
             = link_to 'edit', edit_card_path(c)
+  = will_paginate @cards
 - else
   %h3 There are no cards!

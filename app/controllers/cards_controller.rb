@@ -28,6 +28,8 @@ class CardsController < ApplicationController
     else
       @cards = @cards.order(SQL_ORDERINGS['Name'])
     end
+
+    @cards = @cards.paginate(:page => params[:page], :per_page => 100)
   end
 
   def create
