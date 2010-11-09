@@ -1,7 +1,6 @@
 %h2 Card Info.
 
-%p
-  = link_to 'edit this card', edit_card_path(@card)
+%p= button 'Edit this card', edit_card_path(@card)
 
 = content_tag_for(:table, @card, :class => card_css_classes_string(@card)) do
   %tbody

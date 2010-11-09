@@ -545,57 +545,25 @@ form {
 
 /* line 1, ../../app/stylesheets/_tables.scss */
 table.data {
-  border: 1px solid #ddd;
+  border: none;
 }
-/* line 3, ../../app/stylesheets/_tables.scss */
+/* line 4, ../../app/stylesheets/_tables.scss */
 table.data thead {
   border-bottom: 1px solid #dddddd;
 }
-/* line 5, ../../app/stylesheets/_tables.scss */
+/* line 6, ../../app/stylesheets/_tables.scss */
 table.data thead tr {
   background: none;
+  color: #999;
+  text-transform: uppercase;
 }
-/* line 8, ../../app/stylesheets/_tables.scss */
+/* line 14, ../../app/stylesheets/_tables.scss */
 table.data tbody tr.even, table.data tfoot tr.even {
   background: white;
 }
-/* line 10, ../../app/stylesheets/_tables.scss */
+/* line 17, ../../app/stylesheets/_tables.scss */
 table.data tbody tr.odd, table.data tfoot tr.odd {
   background: #f5f5f5;
-}
-
-/* line 14, ../../app/stylesheets/_tables.scss */
-table.info tr {
-  border-bottom: 1px solid #dddddd;
-}
-
-/* line 18, ../../app/stylesheets/_tables.scss */
-td.date, th.date {
-  white-space: nowrap;
-}
-/* line 20, ../../app/stylesheets/_tables.scss */
-td.currency, th.currency {
-  text-align: right;
-}
-/* line 22, ../../app/stylesheets/_tables.scss */
-td.human_name, th.human_name {
-  white-space: nowrap;
-}
-/* line 24, ../../app/stylesheets/_tables.scss */
-td.bool, th.bool {
-  text-align: center;
-}
-/* line 26, ../../app/stylesheets/_tables.scss */
-td.checkbox, th.checkbox {
-  text-align: center;
-}
-/* line 28, ../../app/stylesheets/_tables.scss */
-td.actions, th.actions {
-  white-space: nowrap;
-}
-/* line 30, ../../app/stylesheets/_tables.scss */
-td.table, th.table {
-  padding: 0;
 }
 
 /* line 2, ../../app/stylesheets/_buttons.scss */
@@ -762,15 +730,4 @@ a {
 /* line 13, ../../app/stylesheets/_cards.scss */
 form.card {
   background: #eee;
-}
-
-/* line 19, ../../app/stylesheets/_cards.scss */
-table#cards {
-  border: none;
-}
-/* line 23, ../../app/stylesheets/_cards.scss */
-table#cards thead tr {
-  border-bottom: 1px solid #ddd;
-  color: #999;
-  text-transform: uppercase;
 }

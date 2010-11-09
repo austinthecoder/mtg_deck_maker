@@ -3,8 +3,7 @@
 - sets = MtgSet.order('released_at DESC')
 
 - unless sets.empty?
-  %p
-    = link_to 'add a set', new_mtg_set_path
+  %p= button 'Add a set', new_mtg_set_path
 
   %table#mtg_sets.data
     %thead
