@@ -1,5 +1,16 @@
 class CardsController < ApplicationController
 
+  SQL_ORDERINGS = {
+    'Name' => 'cards.name ASC',
+    'Type' => 'cards.type_line ASC',
+    'Pow.' => 'cards.power ASC',
+    'Tgh.' => 'cards.toughness ASC'
+  }
+  ARRAY_ORDERINGS = {
+    'Conv. Cost' => :converted_mana_cost,
+    'Rarity' => :rarity
+  }
+
   before_filter :build_card, :only => %w(new create)
   before_filter :find_card, :only => %w(show edit update)
 
@@ -8,7 +19,15 @@ class CardsController < ApplicationController
   ##################################################
 
   def index
-    @cards = Card.includes(:mtg_set).order('name ASC')
+    @cards = Card.includes(:mtg_set)
+
+    if order_sql = SQL_ORDERINGS[params[:sort]]
+      @cards = @cards.order(order_sql)
+    elsif sort_attr = ARRAY_ORDERINGS[params[:sort]]
+      @cards = @cards.sort_by { |c| c.send(sort_attr) }
+    else
+      @cards = @cards.order(SQL_ORDERINGS['Name'])
+    end
   end
 
   def create

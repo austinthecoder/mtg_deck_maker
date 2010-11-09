@@ -9,7 +9,7 @@ Feature: Viewing cards
 
   Scenario: Viewing an individual card
     Given the "SOM" set has been added
-    And the "Kemba's Skyguard" card has been added
+    And the "Kemba's Skyguard" card has been added to that set
 
     When I go to that card's page
     Then I should see the table for that card, which looks like:

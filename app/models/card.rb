@@ -51,6 +51,10 @@ class Card < ActiveRecord::Base
     end
   end
 
+  def converted_mana_cost
+    mana_cost.converted
+  end
+
   def power_and_toughness=(value)
     self.power, self.toughness = value.to_s.split('/').map(&:strip)
   end

@@ -739,11 +739,11 @@ a {
 }
 
 /* line 2, ../../app/stylesheets/_cards.scss */
-.card .rarity, .card .power, .card .toughness {
+.card .rarity {
   text-align: center;
 }
 /* line 5, ../../app/stylesheets/_cards.scss */
-.card .mana_cost {
+.card .mana_cost, .card .conv_mana_cost, .card .power, .card .toughness {
   text-align: right;
 }
 /* line 8, ../../app/stylesheets/_cards.scss */

@@ -89,6 +89,27 @@ end
     :rarity => 'uncommon',
     :rules_text => "{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.
 {T}: Prevent the next 2 damage that would be dealt to target artifact creature this turn."
+  },
+  {
+    :number => 5,
+    :name => 'Trigon of Infestation',
+    :mana_cost => '4',
+    :type_line => 'Artifact',
+    :rarity => 'uncommon',
+    :rules_text => "Trigon of Infestation enters the battlefield with three charge counters on it.
+{G}{G}, {T}: Put a charge counter on Trigon of Infestation.
+{2}, {T}, Remove a charge counter from Trigon of Infestation: Put a 1/1 green Insect creature token with infect onto the battlefield."
+  },
+  {
+    :number => 22,
+    :name => 'Sunblast Angel',
+    :white => true,
+    :mana_cost => '4WW',
+    :type_line => 'Creature - Angel',
+    :power_and_toughness => '4/5',
+    :rarity => 'rare',
+    :rules_text => "Flying
+When Sunblast Angel enters the battlefield, destroy all tapped creatures."
   }
 ].each do |attrs|
   Factory.define attrs[:name], :class => Card do |m|

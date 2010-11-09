@@ -3,6 +3,45 @@ require 'spec_helper'
 describe CardsController do
 
   describe "collection actions" do
+    describe "GET index" do
+      before do
+        @params = {}
+        @rel = Card.includes(:mtg_set)
+        @rel2 = @rel.order('name ASC')
+        @rel.stub!(:order => @rel2)
+        Card.stub!(:includes => @rel)
+      end
+
+      it "Card receives includes" do
+        Card.should_receive(:includes).with(:mtg_set)
+        get :index, @params
+      end
+
+      [
+        [nil, 'cards.name ASC'],
+        ['', 'cards.name ASC'],
+        ['FooBar', 'cards.name ASC'],
+        ['Name', 'cards.name ASC'],
+        ['Type', 'cards.type_line ASC'],
+        ['Pow.', 'cards.power ASC'],
+        ['Tgh.', 'cards.toughness ASC']
+      ].each do |sort_param, order|
+        context "when the sort param is #{sort_param.inspect}" do
+          before { @params[:sort] = sort_param }
+
+          it "relation receives order" do
+            @rel.should_receive(:order).with(order)
+            get :index, @params
+          end
+        end
+      end
+
+      it "assigns the cards" do
+        get :index, @params
+        assigns(:cards).should == @rel2
+      end
+    end
+
     describe "GET new" do
       it "builds a card" do
         controller.should_receive(:build_card)

@@ -1,5 +1,5 @@
 Given /^the "([^"]*)" card has been added to that set$/ do |card_name|
-  Factory(card_name, :mtg_set => @mtg_set)
+  @card = Factory(card_name, :mtg_set => @mtg_set)
 end
 
 ##################################################
@@ -23,10 +23,14 @@ end
 Then /^the "([^"]*)" column should look like:$/ do |header, table|
   cell_class = {
     'Name' => 'name',
-    'Cost' => 'mana_cost'
+    'Conv. Cost' => 'conv_mana_cost',
+    'Rarity' => 'rarity',
+    'Type' => 'type',
+    'Pow.' => 'power',
+    'Tgh.' => 'toughness'
   }[header]
 
   with_scope "#cards" do
-    table.raw.flatten.should == all("tbody td.#{cell_class}").map(&:text)
+    all("tbody td.#{cell_class}").map(&:text).should == table.raw.flatten
   end
 end

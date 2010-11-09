@@ -8,26 +8,23 @@
       %tr
         %th.name= link_to 'Name', cards_path(:sort => 'Name')
         %th.mtg_set Set
-        %th.mana_cost= link_to 'Cost', cards_path(:sort => 'cost')
-        %th.conv_mana_cost Conv. Cost
-        %th.rarity Rarity
-        %th.type Type
-        %th.subtype Subtype
+        %th.mana_cost Cost
+        %th.conv_mana_cost= link_to 'Conv. Cost', cards_path(:sort => 'Conv. Cost')
+        %th.rarity= link_to 'Rarity', cards_path(:sort => 'Rarity')
+        %th.type= link_to 'Type', cards_path(:sort => 'Type')
         %th.rules_text Rules Text
-        %th.power Pow.
-        %th.toughness Tgh.
+        %th.power= link_to 'Pow.', cards_path(:sort => 'Pow.')
+        %th.toughness= link_to 'Tgh.', cards_path(:sort => 'Tgh.')
         %th
     %tbody
       - @cards.each do |c|
-        - type_line_parts = c.type_line.split('—').map(&:strip)
         = content_tag_for(:tr, c, :class => [card_css_classes_string(c), cycle(:odd, :even)].join(' ')) do
           %td.name= link_to c.name, card_path(c)
           %td.mtg_set= c.mtg_set.code
           %td.mana_cost= c.mana_cost
-          %td.conv_mana_cost= c.mana_cost.converted
+          %td.conv_mana_cost= c.converted_mana_cost
           %td.rarity= c.rarity.to_s(:short)
-          %td.type= type_line_parts[0]
-          %td.subtype= type_line_parts[1]
+          %td.type= c.type_line
           %td.rules_text= raw(c.rules_text_html)
           %td.power= c.power
           %td.toughness= c.toughness

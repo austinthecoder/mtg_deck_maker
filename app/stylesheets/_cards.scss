@@ -1,8 +1,8 @@
 .card {
-  .rarity, .power, .toughness {
+  .rarity {
     text-align: center;
   }
-  .mana_cost {
+  .mana_cost, .conv_mana_cost, .power, .toughness {
     text-align: right;
   }
   .mtg_set {

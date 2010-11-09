@@ -2,7 +2,7 @@ Feature: Cards
 
   Scenario: Editing a card
     Given the "SOM" set has been added
-    And the "Venser, the Sojourner" card has been added
+    And the "Venser, the Sojourner" card has been added to that set
 
     When I go to the edit page for that card
     And I fill in the following:
