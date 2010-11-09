@@ -1,5 +1,6 @@
 <cards>
   <card>
+    <number></number>
     <name>Abuna Acolyte</name>
     <colors>white</colors>
     <mana-cost>1W</mana-cost>
@@ -10,6 +11,7 @@
     <rules-text>{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn. {T}: Prevent the next 2 damage that would be dealt to target artifact creature this turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Arrest</name>
     <colors>white</colors>
     <mana-cost>2W</mana-cost>
@@ -20,6 +22,7 @@
     <rules-text>Enchant creature Enchanted creature can't attack or block, and its activated abilities can't be activated.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Auriok Edgewright</name>
     <colors>white</colors>
     <mana-cost>WW</mana-cost>
@@ -30,6 +33,7 @@
     <rules-text>Metalcraft - Auriok Edgewright has double strike as long as you control three or more artifacts.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Auriok Sunchaser</name>
     <colors>white</colors>
     <mana-cost>1W</mana-cost>
@@ -40,6 +44,7 @@
     <rules-text>Metalcraft - As long as you control three or more artifacts, Auriok Sunchaser gets +2/+2 and has flying.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Dispense Justice</name>
     <colors>white</colors>
     <mana-cost>2W</mana-cost>
@@ -50,16 +55,19 @@
     <rules-text>Target player sacrifices an attacking creature. Metalcraft - That player sacrifices two attacking creatures instead if you control three or more artifacts.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Elspeth Tirel</name>
     <colors>white</colors>
     <mana-cost>3WW</mana-cost>
     <type-line>Planeswalker - Elspeth</type-line>
     <power></power>
     <toughness></toughness>
+    <loyalty>4</loyalty>
     <rarity>mythic rare</rarity>
     <rules-text>+2: You gain 1 life for each creature you control. -2: Put three 1/1 white Soldier creature tokens onto the battlefield. -5: Destroy all other permanents except for lands and tokens.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Fulgent Distraction</name>
     <colors>white</colors>
     <mana-cost>2W</mana-cost>
@@ -70,6 +78,7 @@
     <rules-text>Choose two target creatures. Tap those creatures, then unattach all Equipment from them.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Ghalma's Warden</name>
     <colors>white</colors>
     <mana-cost>3W</mana-cost>
@@ -80,6 +89,7 @@
     <rules-text>Metalcraft - Ghalma's Warden gets +2/+2 as long as you control three or more artifacts.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Glimmerpoint Stag</name>
     <colors>white</colors>
     <mana-cost>2WW</mana-cost>
@@ -90,6 +100,7 @@
     <rules-text>Vigilance When Glimmerpoint Stag enters the battlefield, exile another target permanent. Return that card to the battlefield under its owner's control at the beginning of the next end step.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Glint Hawk</name>
     <colors>white</colors>
     <mana-cost>W</mana-cost>
@@ -100,6 +111,7 @@
     <rules-text>Flying When Glint Hawk enters the battlefield, sacrifice it unless you return an artifact you control to its owner's hand.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Indomitable Archangel</name>
     <colors>white</colors>
     <mana-cost>2WW</mana-cost>
@@ -110,6 +122,7 @@
     <rules-text>Flying Metalcraft - Artifacts you control have shroud as long as you control three or more artifacts.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Kemba, Kha Regent</name>
     <colors>white</colors>
     <mana-cost>1WW</mana-cost>
@@ -120,6 +133,7 @@
     <rules-text>At the beginning of your upkeep, put a 2/2 white Cat creature token onto the battlefield for each Equipment attached to Kemba, Kha Regent.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Kemba's Skyguard</name>
     <colors>white</colors>
     <mana-cost>1WW</mana-cost>
@@ -130,6 +144,7 @@
     <rules-text>Flying When Kemba's Skyguard enters the battlefield, you gain 2 life.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Leonin Arbiter</name>
     <colors>white</colors>
     <mana-cost>1W</mana-cost>
@@ -140,6 +155,7 @@
     <rules-text>Players can't search libraries. Any player may pay {2} for that player to ignore this effect until end of turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Loxodon Wayfarer</name>
     <colors>white</colors>
     <mana-cost>2W</mana-cost>
@@ -150,6 +166,7 @@
     <rules-text></rules-text>
   </card>
   <card>
+    <number></number>
     <name>Myrsmith</name>
     <colors>white</colors>
     <mana-cost>1W</mana-cost>
@@ -160,6 +177,7 @@
     <rules-text>Whenever you cast an artifact spell, you may pay {1}. If you do, put a 1/1 colorless Myr artifact creature token onto the battlefield.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Razor Hippogriff</name>
     <colors>white</colors>
     <mana-cost>3WW</mana-cost>
@@ -170,6 +188,7 @@
     <rules-text>Flying When Razor Hippogriff enters the battlefield, return target artifact card from your graveyard to your hand. You gain life equal to that card's converted mana cost.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Revoke Existence</name>
     <colors>white</colors>
     <mana-cost>1W</mana-cost>
@@ -180,6 +199,7 @@
     <rules-text>Exile target artifact or enchantment.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Salvage Scout</name>
     <colors>white</colors>
     <mana-cost>W</mana-cost>
@@ -190,6 +210,7 @@
     <rules-text>{W}, Sacrifice Salvage Scout: Return target artifact card from your graveyard to your hand.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Seize the Initiative</name>
     <colors>white</colors>
     <mana-cost>W</mana-cost>
@@ -200,6 +221,7 @@
     <rules-text>Target creature gets +1/+1 and gains first strike until end of turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Soul Parry</name>
     <colors>white</colors>
     <mana-cost>1W</mana-cost>
@@ -210,6 +232,7 @@
     <rules-text>Prevent all damage one or two target creatures would deal this turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Sunblast Angel</name>
     <colors>white</colors>
     <mana-cost>4WW</mana-cost>
@@ -220,6 +243,7 @@
     <rules-text>Flying When Sunblast Angel enters the battlefield, destroy all tapped creatures.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Sunspear Shikari</name>
     <colors>white</colors>
     <mana-cost>1W</mana-cost>
@@ -230,6 +254,7 @@
     <rules-text>As long as Sunspear Shikari is equipped, it has first strike and lifelink.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Tempered Steel</name>
     <colors>white</colors>
     <mana-cost>1WW</mana-cost>
@@ -240,6 +265,7 @@
     <rules-text>Artifact creatures you control get +2/+2.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>True Conviction</name>
     <colors>white</colors>
     <mana-cost>3WWW</mana-cost>
@@ -250,6 +276,7 @@
     <rules-text>Creatures you control have double strike and lifelink.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Vigil for the Lost</name>
     <colors>white</colors>
     <mana-cost>3W</mana-cost>
@@ -260,6 +287,7 @@
     <rules-text>Whenever a creature you control is put into a graveyard from the battlefield, you may pay {X}. If you do, you gain X life.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Whitesun's Passage</name>
     <colors>white</colors>
     <mana-cost>1W</mana-cost>
@@ -270,6 +298,7 @@
     <rules-text>You gain 5 life.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Argent Sphinx</name>
     <colors>blue</colors>
     <mana-cost>2UU</mana-cost>
@@ -280,6 +309,7 @@
     <rules-text>Flying Metalcraft - {U}: Exile Argent Sphinx. Return it to the battlefield under your control at the beginning of the next end step. Activate this ability only if you control three or more artifacts.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Bonds of Quicksilver</name>
     <colors>blue</colors>
     <mana-cost>3U</mana-cost>
@@ -290,6 +320,7 @@
     <rules-text>Flash (You may cast this spell any time you could cast an instant.) Enchant creature Enchanted creature doesn't untap during its controller's untap step.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Darkslick Drake</name>
     <colors>blue</colors>
     <mana-cost>2UU</mana-cost>
@@ -300,6 +331,7 @@
     <rules-text>Flying When Darkslick Drake is put into a graveyard from the battlefield, draw a card.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Disperse</name>
     <colors>blue</colors>
     <mana-cost>1U</mana-cost>
@@ -310,6 +342,7 @@
     <rules-text>Return target nonland permanent to its owner's hand.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Dissipation Field</name>
     <colors>blue</colors>
     <mana-cost>2UU</mana-cost>
@@ -320,6 +353,7 @@
     <rules-text>Whenever a permanent deals damage to you, return it to its owner's hand.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Grand Architect</name>
     <colors>blue</colors>
     <mana-cost>1UU</mana-cost>
@@ -330,6 +364,7 @@
     <rules-text>Other blue creatures you control get +1/+1. {U}: Target artifact creature becomes blue until end of turn. Tap an untapped blue creature you control: Add {2} to your mana pool. Spend this mana only to cast artifact spells or activate abilities of artifacts.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Halt Order</name>
     <colors>blue</colors>
     <mana-cost>2U</mana-cost>
@@ -340,6 +375,7 @@
     <rules-text>Counter target artifact spell. Draw a card.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Inexorable Tide</name>
     <colors>blue</colors>
     <mana-cost>3UU</mana-cost>
@@ -350,6 +386,7 @@
     <rules-text>Whenever you cast a spell, proliferate. (You choose any number of permanents and/or players with counters on them, then give each another counter of a kind already there.)</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Lumengrid Drake</name>
     <colors>blue</colors>
     <mana-cost>3U</mana-cost>
@@ -360,6 +397,7 @@
     <rules-text>Flying Metalcraft - When Lumengrid Drake enters the battlefield, if you control three or more artifacts, return target creature to its owner's hand.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Neurok Invisimancer</name>
     <colors>blue</colors>
     <mana-cost>1UU</mana-cost>
@@ -370,6 +408,7 @@
     <rules-text>Neurok Invisimancer is unblockable. When Neurok Invisimancer enters the battlefield, target creature is unblockable this turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Plated Seastrider</name>
     <colors>blue</colors>
     <mana-cost>UU</mana-cost>
@@ -380,6 +419,7 @@
     <rules-text></rules-text>
   </card>
   <card>
+    <number></number>
     <name>Quicksilver Gargantuan</name>
     <colors>blue</colors>
     <mana-cost>5UU</mana-cost>
@@ -390,6 +430,7 @@
     <rules-text>You may have Quicksilver Gargantuan enter the battlefield as a copy of any creature on the battlefield, except it's still 7/7.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Riddlesmith</name>
     <colors>blue</colors>
     <mana-cost>1U</mana-cost>
@@ -400,6 +441,7 @@
     <rules-text>Whenever you cast an artifact spell, you may draw a card. If you do, discard a card.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Scrapdiver Serpent</name>
     <colors>blue</colors>
     <mana-cost>5UU</mana-cost>
@@ -410,6 +452,7 @@
     <rules-text>Scrapdiver Serpent is unblockable as long as defending player controls an artifact.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Screeching Silcaw</name>
     <colors>blue</colors>
     <mana-cost>1U</mana-cost>
@@ -420,6 +463,7 @@
     <rules-text>Flying Metalcraft - Whenever Screeching Silcaw deals combat damage to a player, if you control three or more artifacts, that player puts the top four cards of his or her library into his or her graveyard.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Shape Anew</name>
     <colors>blue</colors>
     <mana-cost>3U</mana-cost>
@@ -430,6 +474,7 @@
     <rules-text>The controller of target artifact sacrifices it, then reveals cards from the top of his or her library until he or she reveals an artifact card. That player puts that card onto the battlefield, then shuffles all other cards revealed this way into his or her library.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Sky-Eel School</name>
     <colors>blue</colors>
     <mana-cost>3UU</mana-cost>
@@ -440,6 +485,7 @@
     <rules-text>Flying When Sky-Eel School enters the battlefield, draw a card, then discard a card.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Steady Progress</name>
     <colors>blue</colors>
     <mana-cost>2U</mana-cost>
@@ -450,6 +496,7 @@
     <rules-text>Proliferate. (You choose any number of permanents and/or players with counters on them, then give each another counter of a kind already there.) Draw a card.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Stoic Rebuttal</name>
     <colors>blue</colors>
     <mana-cost>1UU</mana-cost>
@@ -460,6 +507,7 @@
     <rules-text>Metalcraft - Stoic Rebuttal costs {1} less to cast if you control three or more artifacts. Counter target spell.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Thrummingbird</name>
     <colors>blue</colors>
     <mana-cost>1U</mana-cost>
@@ -470,6 +518,7 @@
     <rules-text>Flying Whenever Thrummingbird deals combat damage to a player, proliferate. (You choose any number of permanents and/or players with counters on them, then give each another counter of a kind already there.)</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Trinket Mage</name>
     <colors>blue</colors>
     <mana-cost>2U</mana-cost>
@@ -480,6 +529,7 @@
     <rules-text>When Trinket Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 1 or less, reveal that card, and put it into your hand. If you do, shuffle your library.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Turn Aside</name>
     <colors>blue</colors>
     <mana-cost>U</mana-cost>
@@ -490,6 +540,7 @@
     <rules-text>Counter target spell that targets a permanent you control.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Twisted Image</name>
     <colors>blue</colors>
     <mana-cost>U</mana-cost>
@@ -500,6 +551,7 @@
     <rules-text>Switch target creature's power and toughness until end of turn. Draw a card.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Vault Skyward</name>
     <colors>blue</colors>
     <mana-cost>U</mana-cost>
@@ -510,6 +562,7 @@
     <rules-text>Target creature gains flying until end of turn. Untap it.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Vedalken Certarch</name>
     <colors>blue</colors>
     <mana-cost>U</mana-cost>
@@ -520,6 +573,7 @@
     <rules-text>Metalcraft - {T}: Tap target artifact, creature, or land. Activate this ability only if you control three or more artifacts.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Volition Reins</name>
     <colors>blue</colors>
     <mana-cost>3UUU</mana-cost>
@@ -530,6 +584,7 @@
     <rules-text>Enchant permanent When Volition Reins enters the battlefield, if enchanted permanent is tapped, untap it. You control enchanted permanent.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Blackcleave Goblin</name>
     <colors>black</colors>
     <mana-cost>3B</mana-cost>
@@ -540,6 +595,7 @@
     <rules-text>Haste Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Bleak Coven Vampires</name>
     <colors>black</colors>
     <mana-cost>3BB</mana-cost>
@@ -550,6 +606,7 @@
     <rules-text>Metalcraft - When Bleak Coven Vampires enters the battlefield, if you control three or more artifacts, target player loses 4 life and you gain 4 life.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Blistergrub</name>
     <colors>black</colors>
     <mana-cost>2B</mana-cost>
@@ -560,6 +617,7 @@
     <rules-text>Swampwalk When Blistergrub is put into a graveyard from the battlefield, each opponent loses 2 life.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Carnifex Demon</name>
     <colors>black</colors>
     <mana-cost>4BB</mana-cost>
@@ -570,6 +628,7 @@
     <rules-text>Flying Carnifex Demon enters the battlefield with two -1/-1 counters on it. {B}, Remove a -1/-1 counter from Carnifex Demon: Put a -1/-1 counter on each other creature.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Contagious Nim</name>
     <colors>black</colors>
     <mana-cost>2B</mana-cost>
@@ -580,6 +639,7 @@
     <rules-text>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Corrupted Harvester</name>
     <colors>black</colors>
     <mana-cost>4BB</mana-cost>
@@ -590,6 +650,7 @@
     <rules-text>{B}, Sacrifice a creature: Regenerate Corrupted Harvester.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Dross Hopper</name>
     <colors>black</colors>
     <mana-cost>1B</mana-cost>
@@ -600,6 +661,7 @@
     <rules-text>Sacrifice a creature: Dross Hopper gains flying until end of turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Exsanguinate</name>
     <colors>black</colors>
     <mana-cost>XBB</mana-cost>
@@ -610,6 +672,7 @@
     <rules-text>Each opponent loses X life. You gain life equal to the life lost this way.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Flesh Allergy</name>
     <colors>black</colors>
     <mana-cost>2BB</mana-cost>
@@ -620,6 +683,7 @@
     <rules-text>As an additional cost to cast Flesh Allergy, sacrifice a creature. Destroy target creature. Its controller loses life equal to the number of creatures put into all graveyards from the battlefield this turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Fume Spitter</name>
     <colors>black</colors>
     <mana-cost>B</mana-cost>
@@ -630,6 +694,7 @@
     <rules-text>Sacrifice Fume Spitter: Put a -1/-1 counter on target creature.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Geth, Lord of the Vault</name>
     <colors>black</colors>
     <mana-cost>4BB</mana-cost>
@@ -640,6 +705,7 @@
     <rules-text>Intimidate {X}{B}: Put target artifact or creature card with converted mana cost X from an opponent's graveyard onto the battlefield under your control tapped. Then that player puts the top X cards of his or her library into his or her graveyard.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Grasp of Darkness</name>
     <colors>black</colors>
     <mana-cost>BB</mana-cost>
@@ -650,6 +716,7 @@
     <rules-text>Target creature gets -4/-4 until end of turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Hand of the Praetors</name>
     <colors>black</colors>
     <mana-cost>3B</mana-cost>
@@ -660,6 +727,7 @@
     <rules-text>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.) Other creatures you control with infect get +1/+1. Whenever you cast a creature spell with infect, target player gets a poison counter.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Ichor Rats</name>
     <colors>black</colors>
     <mana-cost>1BB</mana-cost>
@@ -670,6 +738,7 @@
     <rules-text>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.) When Ichor Rats enters the battlefield, each player gets a poison counter.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Instill Infection</name>
     <colors>black</colors>
     <mana-cost>3B</mana-cost>
@@ -680,6 +749,7 @@
     <rules-text>Put a -1/-1 counter on target creature. Draw a card.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Memoricide</name>
     <colors>black</colors>
     <mana-cost>3B</mana-cost>
@@ -690,6 +760,7 @@
     <rules-text>Name a nonland card. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles his or her library.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Moriok Reaver</name>
     <colors>black</colors>
     <mana-cost>2B</mana-cost>
@@ -700,6 +771,7 @@
     <rules-text></rules-text>
   </card>
   <card>
+    <number></number>
     <name>Necrogen Scudder</name>
     <colors>black</colors>
     <mana-cost>2B</mana-cost>
@@ -710,6 +782,7 @@
     <rules-text>Flying When Necrogen Scudder enters the battlefield, you lose 3 life.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Necrotic Ooze</name>
     <colors>black</colors>
     <mana-cost>2BB</mana-cost>
@@ -720,6 +793,7 @@
     <rules-text>As long as Necrotic Ooze is on the battlefield, it has all activated abilities of all creature cards in all graveyards.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Painsmith</name>
     <colors>black</colors>
     <mana-cost>1B</mana-cost>
@@ -730,6 +804,7 @@
     <rules-text>Whenever you cast an artifact spell, you may have target creature get +2/+0 and gain deathtouch until end of turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Painful Quandary</name>
     <colors>black</colors>
     <mana-cost>3BB</mana-cost>
@@ -740,6 +815,7 @@
     <rules-text>Whenever an opponent casts a spell, that player loses 5 life unless he or she discards a card.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Plague Stinger</name>
     <colors>black</colors>
     <mana-cost>1B</mana-cost>
@@ -750,6 +826,7 @@
     <rules-text>Flying Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Psychic Miasma</name>
     <colors>black</colors>
     <mana-cost>1B</mana-cost>
@@ -760,6 +837,7 @@
     <rules-text>Target player discards a card. If a land card is discarded this way, return Psychic Miasma to its owner's hand.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Relic Putrescence</name>
     <colors>black</colors>
     <mana-cost>2B</mana-cost>
@@ -770,6 +848,7 @@
     <rules-text>Enchant artifact Whenever enchanted artifact becomes tapped, its controller gets a poison counter.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Skinrender</name>
     <colors>black</colors>
     <mana-cost>2BB</mana-cost>
@@ -780,6 +859,7 @@
     <rules-text>When Skinrender enters the battlefield, put three -1/-1 counters on target creature.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Skithiryx, the Blight Dragon</name>
     <colors>black</colors>
     <mana-cost>3BB</mana-cost>
@@ -790,6 +870,7 @@
     <rules-text>Flying Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.) {B}: Skithiryx, the Blight Dragon gains haste until end of turn. {B}{B}: Regenerate Skithiryx.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Tainted Strike</name>
     <colors>black</colors>
     <mana-cost>B</mana-cost>
@@ -800,6 +881,7 @@
     <rules-text>Target creature gets +1/+0 and gains infect until end of turn. (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Arc Trail</name>
     <colors>red</colors>
     <mana-cost>1R</mana-cost>
@@ -810,6 +892,7 @@
     <rules-text>Arc Trail deals 2 damage to target creature or player and 1 damage to another target creature or player.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Assault Strobe</name>
     <colors>red</colors>
     <mana-cost>R</mana-cost>
@@ -820,6 +903,7 @@
     <rules-text>Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Barrage Ogre</name>
     <colors>red</colors>
     <mana-cost>3RR</mana-cost>
@@ -830,6 +914,7 @@
     <rules-text>{T}, Sacrifice an artifact: Barrage Ogre deals 2 damage to target creature or player.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Blade-Tribe Berserkers</name>
     <colors>red</colors>
     <mana-cost>3R</mana-cost>
@@ -840,6 +925,7 @@
     <rules-text>Metalcraft - When Blade-Tribe Berserkers enters the battlefield, if you control three or more artifacts, Blade-Tribe Berserkers gets +3/+3 and gains haste until end of turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Bloodshot Trainee</name>
     <colors>red</colors>
     <mana-cost>3R</mana-cost>
@@ -850,6 +936,7 @@
     <rules-text>{T}: Bloodshot Trainee deals 4 damage to target creature. Activate this ability only if Bloodshot Trainee's power is 4 or greater.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Cerebral Eruption</name>
     <colors>red</colors>
     <mana-cost>2RR</mana-cost>
@@ -860,6 +947,7 @@
     <rules-text>Target opponent reveals the top card of his or her library. Cerebral Eruption deals damage equal to the revealed card's converted mana cost to that player and each creature he or she controls. If a land card is revealed this way, return Cerebral Eruption to its owner's hand.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Embersmith</name>
     <colors>red</colors>
     <mana-cost>1R</mana-cost>
@@ -870,6 +958,7 @@
     <rules-text>Whenever you cast an artifact spell, you may pay {1}. If you do, Embersmith deals 1 damage to target creature or player.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Ferrovore</name>
     <colors>red</colors>
     <mana-cost>2R</mana-cost>
@@ -880,6 +969,7 @@
     <rules-text>{R}, Sacrifice an artifact: Ferrovore gets +3/+0 until end of turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Flameborn Hellion</name>
     <colors>red</colors>
     <mana-cost>5R</mana-cost>
@@ -890,6 +980,7 @@
     <rules-text>Haste Flameborn Hellion attacks each turn if able.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Furnace Celebration</name>
     <colors>red</colors>
     <mana-cost>1RR</mana-cost>
@@ -900,6 +991,7 @@
     <rules-text>Whenever you sacrifice another permanent, you may pay {2}. If you do, Furnace Celebration deals 2 damage to target creature or player.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Galvanic Blast</name>
     <colors>red</colors>
     <mana-cost>R</mana-cost>
@@ -910,6 +1002,7 @@
     <rules-text>Galvanic Blast deals 2 damage to target creature or player. Metalcraft - Galvanic Blast deals 4 damage to that creature or player instead if you control three or more artifacts.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Goblin Gaveleer</name>
     <colors>red</colors>
     <mana-cost>R</mana-cost>
@@ -920,6 +1013,7 @@
     <rules-text>Trample Goblin Gaveleer gets +2/+0 for each Equipment attached to it.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Hoard-Smelter Dragon</name>
     <colors>red</colors>
     <mana-cost>4RR</mana-cost>
@@ -930,16 +1024,19 @@
     <rules-text>Flying {3}{R}: Destroy target artifact. Hoard-Smelter Dragon gets +X/+0 until end of turn, where X is that artifact's converted mana cost.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Koth of the Hammer</name>
     <colors>red</colors>
     <mana-cost>2RR</mana-cost>
     <type-line>Planeswalker - Koth</type-line>
     <power></power>
     <toughness></toughness>
+    <loyalty>3</loyalty>
     <rarity>mythic rare</rarity>
     <rules-text>+1: Untap target Mountain. It becomes a 4/4 red Elemental creature until end of turn. It's still a land. -2: Add {R} to your mana pool for each Mountain you control. -5: You get an emblem with "Mountains you control have '{T}: This land deals 1 damage to target creature or player.'"</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Kuldotha Phoenix</name>
     <colors>red</colors>
     <mana-cost>2RRR</mana-cost>
@@ -950,6 +1047,7 @@
     <rules-text>Flying, haste Metalcraft - {4}: Return Kuldotha Phoenix from your graveyard to the battlefield. Activate this ability only during your upkeep and only if you control three or more artifacts.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Kuldotha Rebirth</name>
     <colors>red</colors>
     <mana-cost>R</mana-cost>
@@ -960,6 +1058,7 @@
     <rules-text>As an additional cost to cast Kuldotha Rebirth, sacrifice an artifact. Put three 1/1 red Goblin creature tokens onto the battlefield.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Melt Terrain</name>
     <colors>red</colors>
     <mana-cost>2RR</mana-cost>
@@ -970,6 +1069,7 @@
     <rules-text>Destroy target land. Melt Terrain deals 2 damage to that land's controller.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Molten Psyche</name>
     <colors>red</colors>
     <mana-cost>1RR</mana-cost>
@@ -980,6 +1080,7 @@
     <rules-text>Each player shuffles the cards from his or her hand into his or her library, then draws that many cards. Metalcraft - If you control three or more artifacts, Molten Psyche deals damage to each opponent equal to the number of cards that player has drawn this turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Ogre Geargrabber</name>
     <colors>red</colors>
     <mana-cost>4RR</mana-cost>
@@ -990,6 +1091,7 @@
     <rules-text>Whenever Ogre Geargrabber attacks, gain control of target Equipment an opponent controls until end of turn. Attach it to Ogre Geargrabber. When you lose control of that Equipment, unattach it.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Oxidda Daredevil</name>
     <colors>red</colors>
     <mana-cost>1R</mana-cost>
@@ -1000,6 +1102,7 @@
     <rules-text>Sacrifice an artifact: Oxidda Daredevil gains haste until end of turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Oxidda Scrapmelter</name>
     <colors>red</colors>
     <mana-cost>3R</mana-cost>
@@ -1010,6 +1113,7 @@
     <rules-text>When Oxidda Scrapmelter enters the battlefield, destroy target artifact.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Scoria Elemental</name>
     <colors>red</colors>
     <mana-cost>4R</mana-cost>
@@ -1020,6 +1124,7 @@
     <rules-text></rules-text>
   </card>
   <card>
+    <number></number>
     <name>Shatter</name>
     <colors>red</colors>
     <mana-cost>1R</mana-cost>
@@ -1030,6 +1135,7 @@
     <rules-text>Destroy target artifact.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Spikeshot Elder</name>
     <colors>red</colors>
     <mana-cost>R</mana-cost>
@@ -1040,6 +1146,7 @@
     <rules-text>{1}{R}{R}: Spikeshot Elder deals damage equal to its power to target creature or player.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Tunnel Ignus</name>
     <colors>red</colors>
     <mana-cost>1R</mana-cost>
@@ -1050,6 +1157,7 @@
     <rules-text>Whenever a land enters the battlefield under an opponent's control, if that player had another land enter the battlefield under his or her control this turn, Tunnel Ignus deals 3 damage to that player.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Turn to Slag</name>
     <colors>red</colors>
     <mana-cost>3RR</mana-cost>
@@ -1060,6 +1168,7 @@
     <rules-text>Turn to Slag deals 5 damage to target creature. Destroy all Equipment attached to that creature.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Vulshok Heartstoker</name>
     <colors>red</colors>
     <mana-cost>3R</mana-cost>
@@ -1070,6 +1179,7 @@
     <rules-text>When Vulshok Heartstoker enters the battlefield, target creature gets +2/+0 until end of turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Acid Web Spider</name>
     <colors>green</colors>
     <mana-cost>3GG</mana-cost>
@@ -1080,6 +1190,7 @@
     <rules-text>Reach When Acid Web Spider enters the battlefield, you may destroy target Equipment.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Alpha Tyrranax</name>
     <colors>green</colors>
     <mana-cost>4GG</mana-cost>
@@ -1090,6 +1201,7 @@
     <rules-text></rules-text>
   </card>
   <card>
+    <number></number>
     <name>Asceticism</name>
     <colors>green</colors>
     <mana-cost>3GG</mana-cost>
@@ -1100,6 +1212,7 @@
     <rules-text>Creatures you control can't be the targets of spells or abilities your opponents control. {1}{G}: Regenerate target creature.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Bellowing Tanglewurm</name>
     <colors>green</colors>
     <mana-cost>3GG</mana-cost>
@@ -1110,6 +1223,7 @@
     <rules-text>Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.) Other green creatures you control have intimidate.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Blight Mamba</name>
     <colors>green</colors>
     <mana-cost>1G</mana-cost>
@@ -1120,6 +1234,7 @@
     <rules-text>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.) {1}{G}: Regenerate Blight Mamba.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Blunt the Assault</name>
     <colors>green</colors>
     <mana-cost>3G</mana-cost>
@@ -1130,6 +1245,7 @@
     <rules-text>You gain 1 life for each creature on the battlefield. Prevent all combat damage that would be dealt this turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Carapace Forger</name>
     <colors>green</colors>
     <mana-cost>1G</mana-cost>
@@ -1140,6 +1256,7 @@
     <rules-text>Metalcraft - Carapace Forger gets +2/+2 as long as you control three or more artifacts.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Carrion Call</name>
     <colors>green</colors>
     <mana-cost>3G</mana-cost>
@@ -1150,6 +1267,7 @@
     <rules-text>Put two 1/1 green Insect creature tokens with infect onto the battlefield. (They deal damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Copperhorn Scout</name>
     <colors>green</colors>
     <mana-cost>G</mana-cost>
@@ -1160,6 +1278,7 @@
     <rules-text>Whenever Copperhorn Scout attacks, untap each other creature you control.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Cystbearer</name>
     <colors>green</colors>
     <mana-cost>2G</mana-cost>
@@ -1170,6 +1289,7 @@
     <rules-text>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Engulfing Slagwurm</name>
     <colors>green</colors>
     <mana-cost>5GG</mana-cost>
@@ -1180,6 +1300,7 @@
     <rules-text>Whenever Engulfing Slagwurm blocks or becomes blocked by a creature, destroy that creature. You gain life equal to that creature's toughness.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Ezuri, Renegade Leader</name>
     <colors>green</colors>
     <mana-cost>1GG</mana-cost>
@@ -1190,6 +1311,7 @@
     <rules-text>{G}: Regenerate another target Elf. {2}{G}{G}{G}: Elf creatures you control get +3/+3 and gain trample until end of turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Ezuri's Archers</name>
     <colors>green</colors>
     <mana-cost>G</mana-cost>
@@ -1200,6 +1322,7 @@
     <rules-text>Reach (This creature can block creatures with flying.) Whenever Ezuri's Archers blocks a creature with flying, Ezuri's Archers gets +3/+0 until end of turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Ezuri's Brigade</name>
     <colors>green</colors>
     <mana-cost>2GG</mana-cost>
@@ -1210,6 +1333,7 @@
     <rules-text>Metalcraft - As long as you control three or more artifacts, Ezuri's Brigade gets +4/+4 and has trample.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Genesis Wave</name>
     <colors>green</colors>
     <mana-cost>XGGG</mana-cost>
@@ -1220,6 +1344,7 @@
     <rules-text>Reveal the top X cards of your library. You may put any number of permanent cards with converted mana cost X or less from among them onto the battlefield. Then put all cards revealed this way that weren't put onto the battlefield into your graveyard.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Liege of the Tangle</name>
     <colors>green</colors>
     <mana-cost>6GG</mana-cost>
@@ -1230,6 +1355,7 @@
     <rules-text>Trample Whenever Liege of the Tangle deals combat damage to a player, you may choose any number of target lands you control and put an awakening counter on each of them. Each of those lands is an 8/8 green Elemental creature for as long as it has an awakening counter on it. They're still lands.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Lifesmith</name>
     <colors>green</colors>
     <mana-cost>1G</mana-cost>
@@ -1240,6 +1366,7 @@
     <rules-text>Whenever you cast an artifact spell, you may pay {1}. If you do, you gain 3 life.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Molder Beast</name>
     <colors>green</colors>
     <mana-cost>4G</mana-cost>
@@ -1250,6 +1377,7 @@
     <rules-text>Trample Whenever an artifact is put into a graveyard from the battlefield, Molder Beast gets +2/+0 until end of turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Putrefax</name>
     <colors>green</colors>
     <mana-cost>3GG</mana-cost>
@@ -1260,6 +1388,7 @@
     <rules-text>Trample, haste Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.) At the beginning of the end step, sacrifice Putrefax.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Slice in Twain</name>
     <colors>green</colors>
     <mana-cost>2GG</mana-cost>
@@ -1270,6 +1399,7 @@
     <rules-text>Destroy target artifact or enchantment. Draw a card.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Tangle Angler</name>
     <colors>green</colors>
     <mana-cost>3GG</mana-cost>
@@ -1280,6 +1410,7 @@
     <rules-text>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.) {G}: Target creature blocks Tangle Angler this turn if able.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Tel-Jilad Defiance</name>
     <colors>green</colors>
     <mana-cost>1G</mana-cost>
@@ -1290,6 +1421,7 @@
     <rules-text>Target creature gains protection from artifacts until end of turn. Draw a card.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Tel-Jilad Fallen</name>
     <colors>green</colors>
     <mana-cost>2GG</mana-cost>
@@ -1300,6 +1432,7 @@
     <rules-text>Protection from artifacts Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Untamed Might</name>
     <colors>green</colors>
     <mana-cost>XG</mana-cost>
@@ -1310,6 +1443,7 @@
     <rules-text>Target creature gets +X/+X until end of turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Viridian Revel</name>
     <colors>green</colors>
     <mana-cost>1GG</mana-cost>
@@ -1320,6 +1454,7 @@
     <rules-text>Whenever an artifact is put into an opponent's graveyard from the battlefield, you may draw a card.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Wing Puncture</name>
     <colors>green</colors>
     <mana-cost>G</mana-cost>
@@ -1330,6 +1465,7 @@
     <rules-text>Target creature you control deals damage equal to its power to target creature with flying.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Withstand Death</name>
     <colors>green</colors>
     <mana-cost>G</mana-cost>
@@ -1340,16 +1476,19 @@
     <rules-text>Target creature is indestructible this turn. (Lethal damage and effects that say "destroy" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Venser, the Sojourner</name>
     <colors>white blue</colors>
     <mana-cost>3WU</mana-cost>
     <type-line>Planeswalker - Venser</type-line>
     <power></power>
     <toughness></toughness>
+    <loyalty>3</loyalty>
     <rarity>mythic rare</rarity>
     <rules-text>+2: Exile target permanent you own. Return it to the battlefield under your control at the beginning of the next end step. -1: Creatures are unblockable this turn. -8: You get an emblem with "Whenever you cast a spell, exile target permanent."</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Accorder's Shield</name>
     <colors></colors>
     <mana-cost>0</mana-cost>
@@ -1360,6 +1499,7 @@
     <rules-text>Equipped creature gets +0/+3 and has vigilance. Equip {3}</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Argentum Armor</name>
     <colors></colors>
     <mana-cost>6</mana-cost>
@@ -1370,6 +1510,7 @@
     <rules-text>Equipped creature gets +6/+6. Whenever equipped creature attacks, destroy target permanent. Equip {6}</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Auriok Replica</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -1380,6 +1521,7 @@
     <rules-text>{W}, Sacrifice Auriok Replica: Prevent all damage a source of your choice would deal to you this turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Barbed Battlegear</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -1390,6 +1532,7 @@
     <rules-text>Equipped creature gets +4/-1. Equip {2}</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Bladed Pinions</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -1400,6 +1543,7 @@
     <rules-text>Equipped creature has flying and first strike. Equip {2}</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Chimeric Mass</name>
     <colors></colors>
     <mana-cost>X</mana-cost>
@@ -1410,6 +1554,7 @@
     <rules-text>Chimeric Mass enters the battlefield with X charge counters on it. {1}: Until end of turn, Chimeric Mass becomes a Construct artifact creature with "This creature's power and toughness are each equal to the number of charge counters on it."</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Chrome Steed</name>
     <colors></colors>
     <mana-cost>4</mana-cost>
@@ -1420,6 +1565,7 @@
     <rules-text>Metalcraft - Chrome Steed gets +2/+2 as long as you control three or more artifacts.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Clone Shell</name>
     <colors></colors>
     <mana-cost>5</mana-cost>
@@ -1430,6 +1576,7 @@
     <rules-text>Imprint - When Clone Shell enters the battlefield, look at the top four cards of your library, exile one face down, then put the rest on the bottom of your library in any order. When Clone Shell is put into a graveyard from the battlefield, turn the exiled card face up. If it's a creature card, put it onto the battlefield under your control.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Contagion Clasp</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -1440,6 +1587,7 @@
     <rules-text>When Contagion Clasp enters the battlefield, put a -1/-1 counter on target creature. {4}, {T}: Proliferate. (You choose any number of permanents and/or players with counters on them, then give each another counter of a kind already there.)</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Contagion Engine</name>
     <colors></colors>
     <mana-cost>6</mana-cost>
@@ -1450,6 +1598,7 @@
     <rules-text>When Contagion Engine enters the battlefield, put a -1/-1 counter on each creature target player controls. {4}, {T}: Proliferate, then proliferate again. (You choose any number of permanents and/or players with counters on them, then give each another counter of a kind already there. Then do it again.)</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Copper Myr</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -1460,6 +1609,7 @@
     <rules-text>{T}: Add {G} to your mana pool.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Corpse Cur</name>
     <colors></colors>
     <mana-cost>4</mana-cost>
@@ -1470,6 +1620,7 @@
     <rules-text>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.) When Corpse Cur enters the battlefield, you may return target creature card with infect from your graveyard to your hand.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Culling Dais</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -1480,6 +1631,7 @@
     <rules-text>{T}, Sacrifice a creature: Put a charge counter on Culling Dais. {1}, Sacrifice Culling Dais: Draw a card for each charge counter on Culling Dais.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Darksteel Axe</name>
     <colors></colors>
     <mana-cost>1</mana-cost>
@@ -1490,6 +1642,7 @@
     <rules-text>Darksteel Axe is indestructible. (Effects that say "destroy" don't destroy it.) Equipped creature gets +2/+0. Equip {2}</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Darksteel Juggernaut</name>
     <colors></colors>
     <mana-cost>5</mana-cost>
@@ -1500,6 +1653,7 @@
     <rules-text>Darksteel Juggernaut's power and toughness are each equal to the number of artifacts you control. Darksteel Juggernaut is indestructible and attacks each turn if able.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Darksteel Myr</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -1510,6 +1664,7 @@
     <rules-text>Darksteel Myr is indestructible. (Lethal damage and effects that say "destroy" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Darksteel Sentinel</name>
     <colors></colors>
     <mana-cost>6</mana-cost>
@@ -1520,6 +1675,7 @@
     <rules-text>Flash (You may cast this spell any time you could cast an instant.) Vigilance Darksteel Sentinel is indestructible. (Lethal damage and effects that say "destroy" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Echo Circlet</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -1530,6 +1686,7 @@
     <rules-text>Equipped creature can block an additional creature. Equip {1}</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Etched Champion</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -1540,6 +1697,7 @@
     <rules-text>Metalcraft - Etched Champion has protection from all colors as long as you control three or more artifacts.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Flight Spellbomb</name>
     <colors></colors>
     <mana-cost>1</mana-cost>
@@ -1550,6 +1708,7 @@
     <rules-text>{T}, Sacrifice Flight Spellbomb: Target creature gains flying until end of turn. When Flight Spellbomb is put into a graveyard from the battlefield, you may pay {U}. If you do, draw a card.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Glint Hawk Idol</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -1560,6 +1719,7 @@
     <rules-text>Whenever another artifact enters the battlefield under your control, you may have Glint Hawk Idol become a 2/2 Bird artifact creature with flying until end of turn. {W}: Glint Hawk Idol becomes a 2/2 Bird artifact creature with flying until end of turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Gold Myr</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -1570,6 +1730,7 @@
     <rules-text>{T}: Add {W} to your mana pool.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Golden Urn</name>
     <colors></colors>
     <mana-cost>1</mana-cost>
@@ -1580,6 +1741,7 @@
     <rules-text>At the beginning of your upkeep, you may put a charge counter on Golden Urn. {T}, Sacrifice Golden Urn: You gain life equal to the number of charge counters on Golden Urn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Golem Artisan</name>
     <colors></colors>
     <mana-cost>5</mana-cost>
@@ -1590,6 +1752,7 @@
     <rules-text>{2}: Target artifact creature gets +1/+1 until end of turn. {2}: Target artifact creature gains your choice of flying, trample, or haste until end of turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Golem Foundry</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -1600,6 +1763,7 @@
     <rules-text>Whenever you cast an artifact spell, you may put a charge counter on Golem Foundry. Remove three charge counters from Golem Foundry: Put a 3/3 colorless Golem artifact creature token onto the battlefield.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Golem's Heart</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -1610,6 +1774,7 @@
     <rules-text>Whenever a player casts an artifact spell, you may gain 1 life.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Grafted Exoskeleton</name>
     <colors></colors>
     <mana-cost>4</mana-cost>
@@ -1620,6 +1785,7 @@
     <rules-text>Equipped creature gets +2/+2 and has infect. (It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.) Whenever Grafted Exoskeleton becomes unattached from a permanent, sacrifice that permanent. Equip {2}</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Grindclock</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -1630,6 +1796,7 @@
     <rules-text>{T}: Put a charge counter on Grindclock. {T}: Target player puts the top X cards of his or her library into his or her graveyard, where X is the number of charge counters on Grindclock.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Heavy Arbalest</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -1640,6 +1807,7 @@
     <rules-text>Equipped creature doesn't untap during its controller's untap step. Equipped creature has "{T}: This creature deals 2 damage to target creature or player." Equip {4}</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Horizon Spellbomb</name>
     <colors></colors>
     <mana-cost>1</mana-cost>
@@ -1650,6 +1818,7 @@
     <rules-text>{2}, {T}, Sacrifice Horizon Spellbomb: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library. When Horizon Spellbomb is put into a graveyard from the battlefield, you may pay {G}. If you do, draw a card.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Ichorclaw Myr</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -1660,6 +1829,7 @@
     <rules-text>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.) Whenever Ichorclaw Myr becomes blocked, it gets +2/+2 until end of turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Infiltration Lens</name>
     <colors></colors>
     <mana-cost>1</mana-cost>
@@ -1670,6 +1840,7 @@
     <rules-text>Whenever equipped creature becomes blocked by a creature, you may draw two cards. Equip {1}</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Iron Myr</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -1680,6 +1851,7 @@
     <rules-text>{T}: Add {R} to your mana pool.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Kuldotha Forgemaster</name>
     <colors></colors>
     <mana-cost>5</mana-cost>
@@ -1690,6 +1862,7 @@
     <rules-text>{T}, Sacrifice three artifacts: Search your library for an artifact card and put it onto the battlefield. Then shuffle your library.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Leaden Myr</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -1700,6 +1873,7 @@
     <rules-text>{T}: Add {B} to your mana pool.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Liquimetal Coating</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -1710,6 +1884,7 @@
     <rules-text>{T}: Target permanent becomes an artifact in addition to its other types until end of turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Livewire Lash</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -1720,6 +1895,7 @@
     <rules-text>Equipped creature gets +2/+0 and has "Whenever this creature becomes the target of a spell, this creature deals 2 damage to target creature or player." Equip {2}</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Lux Cannon</name>
     <colors></colors>
     <mana-cost>4</mana-cost>
@@ -1730,6 +1906,7 @@
     <rules-text>{T}: Put a charge counter on Lux Cannon. {T}, Remove three charge counters from Lux Cannon: Destroy target permanent.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Memnite</name>
     <colors></colors>
     <mana-cost>0</mana-cost>
@@ -1740,6 +1917,7 @@
     <rules-text></rules-text>
   </card>
   <card>
+    <number></number>
     <name>Mimic Vat</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -1750,6 +1928,7 @@
     <rules-text>Imprint - Whenever a nontoken creature is put into a graveyard from the battlefield, you may exile that card. If you do, return each other card exiled with Mimic Vat to its owner's graveyard. {3}, {T}: Put a token onto the battlefield that's a copy of the exiled card. It gains haste. Exile it at the beginning of the next end step.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Mindslaver</name>
     <colors></colors>
     <mana-cost>6</mana-cost>
@@ -1760,6 +1939,7 @@
     <rules-text>{4}, {T}, Sacrifice Mindslaver: You control target player during that player's next turn. (You see all cards that player could see and make all decisions for the player.)</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Molten-Tail Masticore</name>
     <colors></colors>
     <mana-cost>4</mana-cost>
@@ -1770,6 +1950,7 @@
     <rules-text>At the beginning of your upkeep, sacrifice Molten-Tail Masticore unless you discard a card. {4}, Exile a creature card from your graveyard: Molten-Tail Masticore deals 4 damage to target creature or player. {2}: Regenerate Molten-Tail Masticore.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Moriok Replica</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -1780,6 +1961,7 @@
     <rules-text>{1}{B}, Sacrifice Moriok Replica: You draw two cards and lose 2 life.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Mox Opal</name>
     <colors></colors>
     <mana-cost>0</mana-cost>
@@ -1790,6 +1972,7 @@
     <rules-text>Metalcraft - {T}: Add one mana of any color to your mana pool. Activate this ability only if you control three or more artifacts.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Myr Battlesphere</name>
     <colors></colors>
     <mana-cost>7</mana-cost>
@@ -1800,6 +1983,7 @@
     <rules-text>When Myr Battlesphere enters the battlefield, put four 1/1 colorless Myr artifact creature tokens onto the battlefield. Whenever Myr Battlesphere attacks, you may tap X untapped Myr you control. If you do, Myr Battlesphere gets +X/+0 until end of turn and deals X damage to defending player.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Myr Galvanizer</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -1810,6 +1994,7 @@
     <rules-text>Other Myr creatures you control get +1/+1. {1}, {T}: Untap each other Myr you control.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Myr Propagator</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -1820,6 +2005,7 @@
     <rules-text>{3}, {T}: Put a token that's a copy of Myr Propagator onto the battlefield.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Myr Reservoir</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -1830,6 +2016,7 @@
     <rules-text>{T}: Add {2} to your mana pool. Spend this mana only to cast Myr spells or activate abilities of Myr. {3}, {T}: Return target Myr card from your graveyard to your hand.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Necrogen Censer</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -1840,6 +2027,7 @@
     <rules-text>Necrogen Censer enters the battlefield with two charge counters on it. {T}, Remove a charge counter from Necrogen Censer: Target player loses 2 life.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Necropede</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -1850,6 +2038,7 @@
     <rules-text>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.) When Necropede is put into a graveyard from the battlefield, you may put a -1/-1 counter on target creature.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Neurok Replica</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -1860,6 +2049,7 @@
     <rules-text>{1}{U}, Sacrifice Neurok Replica: Return target creature to its owner's hand.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Nihil Spellbomb</name>
     <colors></colors>
     <mana-cost>1</mana-cost>
@@ -1870,6 +2060,7 @@
     <rules-text>{T}, Sacrifice Nihil Spellbomb: Exile all cards from target player's graveyard. When Nihil Spellbomb is put into a graveyard from the battlefield, you may pay {B}. If you do, draw a card.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Nim Deathmantle</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -1880,6 +2071,7 @@
     <rules-text>Equipped creature gets +2/+2, has intimidate, and is a black Zombie. Whenever a nontoken creature is put into your graveyard from the battlefield, you may pay {4}. If you do, return that card to the battlefield and attach Nim Deathmantle to it. Equip {4}</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Origin Spellbomb</name>
     <colors></colors>
     <mana-cost>1</mana-cost>
@@ -1890,6 +2082,7 @@
     <rules-text>{1}, {T}, Sacrifice Origin Spellbomb: Put a 1/1 colorless Myr artifact creature token onto the battlefield. When Origin Spellbomb is put into a graveyard from the battlefield, you may pay {W}. If you do, draw a card.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Palladium Myr</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -1900,6 +2093,7 @@
     <rules-text>{T}: Add {2} to your mana pool.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Panic Spellbomb</name>
     <colors></colors>
     <mana-cost>1</mana-cost>
@@ -1910,6 +2104,7 @@
     <rules-text>{T}, Sacrifice Panic Spellbomb: Target creature can't block this turn. When Panic Spellbomb is put into a graveyard from the battlefield, you may pay {R}. If you do, draw a card.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Perilous Myr</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -1920,6 +2115,7 @@
     <rules-text>When Perilous Myr is put into a graveyard from the battlefield, it deals 2 damage to target creature or player.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Platinum Emperion</name>
     <colors></colors>
     <mana-cost>8</mana-cost>
@@ -1930,6 +2126,7 @@
     <rules-text>Your life total can't change. (You can't gain or lose life. You can't pay any amount of life except 0.)</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Precursor Golem</name>
     <colors></colors>
     <mana-cost>5</mana-cost>
@@ -1940,6 +2137,7 @@
     <rules-text>When Precursor Golem enters the battlefield, put two 3/3 colorless Golem artifact creature tokens onto the battlefield. Whenever a player casts an instant or sorcery spell that targets only a single Golem, that player copies that spell for each other Golem that spell could target. Each copy targets a different one of those Golems.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Prototype Portal</name>
     <colors></colors>
     <mana-cost>4</mana-cost>
@@ -1950,6 +2148,7 @@
     <rules-text>Imprint - When Prototype Portal enters the battlefield, you may exile an artifact card from your hand. {X}, {T}: Put a token that's a copy of the exiled card onto the battlefield. X is the converted mana cost of that card.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Ratchet Bomb</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -1960,6 +2159,7 @@
     <rules-text>{T}: Put a charge counter on Ratchet Bomb. {T}, Sacrifice Ratchet Bomb: Destroy each nonland permanent with converted mana cost equal to the number of charge counters on Ratchet Bomb.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Razorfield Thresher</name>
     <colors></colors>
     <mana-cost>7</mana-cost>
@@ -1970,6 +2170,7 @@
     <rules-text></rules-text>
   </card>
   <card>
+    <number></number>
     <name>Rust Tick</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -1980,6 +2181,7 @@
     <rules-text>You may choose not to untap Rust Tick during your untap step. {1}, {T}: Tap target artifact. It doesn't untap during its controller's untap step for as long as Rust Tick remains tapped.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Rusted Relic</name>
     <colors></colors>
     <mana-cost>4</mana-cost>
@@ -1990,6 +2192,7 @@
     <rules-text>Metalcraft - Rusted Relic is a 5/5 Golem artifact creature as long as you control three or more artifacts.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Saberclaw Golem</name>
     <colors></colors>
     <mana-cost>4</mana-cost>
@@ -2000,6 +2203,7 @@
     <rules-text>{R}: Saberclaw Golem gains first strike until end of turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Semblance Anvil</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -2010,6 +2214,7 @@
     <rules-text>Imprint - When Semblance Anvil enters the battlefield, you may exile a nonland card from your hand. Spells you cast that share a card type with the exiled card cost {2} less to cast.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Silver Myr</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -2020,6 +2225,7 @@
     <rules-text>{T}: Add {U} to your mana pool.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Snapsail Glider</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -2030,6 +2236,7 @@
     <rules-text>Metalcraft - Snapsail Glider has flying as long as you control three or more artifacts.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Soliton</name>
     <colors></colors>
     <mana-cost>5</mana-cost>
@@ -2040,6 +2247,7 @@
     <rules-text>{U}: Untap Soliton.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Steel Hellkite</name>
     <colors></colors>
     <mana-cost>6</mana-cost>
@@ -2050,6 +2258,7 @@
     <rules-text>Flying {2}: Steel Hellkite gets +1/+0 until end of turn. {X}: Destroy each nonland permanent with converted mana cost X whose controller was dealt combat damage by Steel Hellkite this turn. Activate this ability only once each turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Strata Scythe</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -2060,6 +2269,7 @@
     <rules-text>Imprint - When Strata Scythe enters the battlefield, search your library for a land card, exile it, then shuffle your library. Equipped creature gets +1/+1 for each land on the battlefield with the same name as the exiled card. Equip {3}</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Strider Harness</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -2070,6 +2280,7 @@
     <rules-text>Equipped creature gets +1/+1 and has haste. Equip {1}</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Sword of Body and Mind</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -2080,6 +2291,7 @@
     <rules-text>Equipped creature gets +2/+2 and has protection from green and from blue. Whenever equipped creature deals combat damage to a player, you put a 2/2 green Wolf creature token onto the battlefield and that player puts the top ten cards of his or her library into his or her graveyard. Equip {2}</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Sylvok Lifestaff</name>
     <colors></colors>
     <mana-cost>1</mana-cost>
@@ -2090,6 +2302,7 @@
     <rules-text>Equipped creature gets +1/+0. Whenever equipped creature is put into a graveyard, you gain 3 life. Equip {1}</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Sylvok Replica</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -2100,6 +2313,7 @@
     <rules-text>{G}, Sacrifice Sylvok Replica: Destroy target artifact or enchantment.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Throne of Geth</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -2110,6 +2324,7 @@
     <rules-text>{T}, Sacrifice an artifact: Proliferate. (You choose any number of permanents and/or players with counters on them, then give each another counter of a kind already there.)</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Tower of Calamities</name>
     <colors></colors>
     <mana-cost>4</mana-cost>
@@ -2120,6 +2335,7 @@
     <rules-text>{8}, {T}: Tower of Calamities deals 12 damage to target creature.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Trigon of Corruption</name>
     <colors></colors>
     <mana-cost>4</mana-cost>
@@ -2130,6 +2346,7 @@
     <rules-text>Trigon of Corruption enters the battlefield with three charge counters on it. {B}{B}, {T}: Put a charge counter on Trigon of Corruption. {2}, {T}, Remove a charge counter from Trigon of Corruption: Put a -1/-1 counter on target creature.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Trigon of Infestation</name>
     <colors></colors>
     <mana-cost>4</mana-cost>
@@ -2140,6 +2357,7 @@
     <rules-text>Trigon of Infestation enters the battlefield with three charge counters on it. {G}{G}, {T}: Put a charge counter on Trigon of Infestation. {2}, {T}, Remove a charge counter from Trigon of Infestation: Put a 1/1 green Insect creature token with infect onto the battlefield.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Trigon of Mending</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -2150,6 +2368,7 @@
     <rules-text>Trigon of Mending enters the battlefield with three charge counters on it. {W}{W}, {T}: Put a charge counter on Trigon of Mending. {2}, {T}, Remove a charge counter from Trigon of Mending: Target player gains 3 life.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Trigon of Rage</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -2160,6 +2379,7 @@
     <rules-text>Trigon of Rage enters the battlefield with three charge counters on it. {R}{R}, {T}: Put a charge counter on Trigon of Rage. {2}, {T}, Remove a charge counter from Trigon of Rage: Target creature gets +3/+0 until end of turn.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Trigon of Thought</name>
     <colors></colors>
     <mana-cost>5</mana-cost>
@@ -2170,6 +2390,7 @@
     <rules-text>Trigon of Thought enters the battlefield with three charge counters on it. {U}{U}, {T}: Put a charge counter on Trigon of Thought. {2}, {T}, Remove a charge counter from Trigon of Thought: Draw a card.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Tumble Magnet</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -2180,6 +2401,7 @@
     <rules-text>Tumble Magnet enters the battlefield with three charge counters on it. {T}, Remove a charge counter from Tumble Magnet: Tap target artifact or creature.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Vector Asp</name>
     <colors></colors>
     <mana-cost>1</mana-cost>
@@ -2190,6 +2412,7 @@
     <rules-text>{B}: Vector Asp gains infect until end of turn. (It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Venser's Journal</name>
     <colors></colors>
     <mana-cost>5</mana-cost>
@@ -2200,6 +2423,7 @@
     <rules-text>You have no maximum hand size. At the beginning of your upkeep, you gain 1 life for each card in your hand.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Vulshok Replica</name>
     <colors></colors>
     <mana-cost>3</mana-cost>
@@ -2210,6 +2434,7 @@
     <rules-text>{1}{R}, Sacrifice Vulshok Replica: Vulshok Replica deals 3 damage to target player.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Wall of Tanglecord</name>
     <colors></colors>
     <mana-cost>2</mana-cost>
@@ -2220,6 +2445,7 @@
     <rules-text>Defender {G}: Wall of Tanglecord gains reach until end of turn. (It can block creatures with flying.)</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Wurmcoil Engine</name>
     <colors></colors>
     <mana-cost>6</mana-cost>
@@ -2230,6 +2456,7 @@
     <rules-text>Deathtouch, lifelink When Wurmcoil Engine is put into a graveyard from the battlefield, put a 3/3 colorless Wurm artifact creature token with deathtouch and a 3/3 colorless Wurm artifact creature token with lifelink onto the battlefield.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Blackcleave Cliffs</name>
     <colors></colors>
     <mana-cost></mana-cost>
@@ -2240,6 +2467,7 @@
     <rules-text>Blackcleave Cliffs enters the battlefield tapped unless you control two or fewer other lands. {T}: Add {B} or {R} to your mana pool.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Copperline Gorge</name>
     <colors></colors>
     <mana-cost></mana-cost>
@@ -2250,6 +2478,7 @@
     <rules-text>Copperline Gorge enters the battlefield tapped unless you control two or fewer other lands. {T}: Add {R} or {G} to your mana pool.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Darkslick Shores</name>
     <colors></colors>
     <mana-cost></mana-cost>
@@ -2260,6 +2489,7 @@
     <rules-text>Darkslick Shores enters the battlefield tapped unless you control two or fewer other lands. {T}: Add {U} or {B} to your mana pool.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Glimmerpost</name>
     <colors></colors>
     <mana-cost></mana-cost>
@@ -2270,6 +2500,7 @@
     <rules-text>When Glimmerpost enters the battlefield, you gain 1 life for each Locus on the battlefield. {T}: Add {1} to your mana pool.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Razorverge Thicket</name>
     <colors></colors>
     <mana-cost></mana-cost>
@@ -2280,6 +2511,7 @@
     <rules-text>Razorverge Thicket enters the battlefield tapped unless you control two or fewer other lands. {T}: Add {G} or {W} to your mana pool.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Seachrome Coast</name>
     <colors></colors>
     <mana-cost></mana-cost>
@@ -2290,6 +2522,7 @@
     <rules-text>Seachrome Coast enters the battlefield tapped unless you control two or fewer other lands. {T}: Add {W} or {U} to your mana pool.</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Plains</name>
     <colors></colors>
     <mana-cost></mana-cost>
@@ -2300,6 +2533,7 @@
     <rules-text>W</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Island</name>
     <colors></colors>
     <mana-cost></mana-cost>
@@ -2310,6 +2544,7 @@
     <rules-text>U</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Swamp</name>
     <colors></colors>
     <mana-cost></mana-cost>
@@ -2320,6 +2555,7 @@
     <rules-text>B</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Mountain</name>
     <colors></colors>
     <mana-cost></mana-cost>
@@ -2330,6 +2566,7 @@
     <rules-text>R</rules-text>
   </card>
   <card>
+    <number></number>
     <name>Forest</name>
     <colors></colors>
     <mana-cost></mana-cost>

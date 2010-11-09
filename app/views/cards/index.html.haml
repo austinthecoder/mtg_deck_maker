@@ -6,9 +6,9 @@
   %table#cards.data
     %thead
       %tr
-        %th.name Name
+        %th.name= link_to 'Name', cards_path(:sort => 'Name')
         %th.mtg_set Set
-        %th.mana_cost Cost
+        %th.mana_cost= link_to 'Cost', cards_path(:sort => 'cost')
         %th.conv_mana_cost Conv. Cost
         %th.rarity Rarity
         %th.type Type

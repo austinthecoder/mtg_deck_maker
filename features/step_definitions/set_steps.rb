@@ -1,25 +1,10 @@
 Given /^the "([^"]*)" set has been added$/ do |name|
   @mtg_set = case name
   when 'SOM'
-    MtgSet.create!(
-      :name => 'Scars of Mirrodin',
-      :num_cards => 249,
-      :released_at => Date.parse('2010-10-01')
-    )
+    Factory(:som_set)
+  when 'ZEN'
+    Factory(:zen_set)
   end
-end
-
-Given /^the ZEN set has been added$/ do
-  steps %Q{
-    When I go to the new set page
-    And I fill in the following:
-      | Name            | Zendikar |
-      | Number of cards | 249      |
-    And I select "2009" from "mtg_set_released_at_1i"
-    And I select "October" from "mtg_set_released_at_2i"
-    And I select "2" from "mtg_set_released_at_3i"
-    And I press "Add this set"
-  }
 end
 
 ##################################################
