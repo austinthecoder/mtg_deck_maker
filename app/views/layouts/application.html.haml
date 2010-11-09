@@ -10,7 +10,7 @@
       = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
     = javascript_include_tag ['application']
     - if Rails.env.production?
-      = javascript_tag do
+      :javascript
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-19533192-1']);
         _gaq.push(['_trackPageview']);
