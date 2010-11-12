@@ -4,9 +4,13 @@ MtgDeckMaker::Application.routes.draw do
 
   resources :sets, :as => 'mtg_sets', :except => %w(edit update destroy)
 
-  resources :cards, :except => %w(destroy)
+  resources :cards, :except => %w(destroy) do
+    member do
+      post 'add_to_deck'
+    end
+  end
 
-  resources :decks, :except => %w(index show create edit update destroy)
+  resource :deck, :except => %w(new create edit update destroy)
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

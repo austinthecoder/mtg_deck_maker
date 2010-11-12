@@ -731,3 +731,15 @@ a {
 form.card {
   background: #eee;
 }
+
+/* line 18, ../../app/stylesheets/_cards.scss */
+table#cards form {
+  background: none;
+  padding: 0;
+  white-space: nowrap;
+}
+
+/* line 26, ../../app/stylesheets/_cards.scss */
+.deck_card .number {
+  text-align: right;
+}

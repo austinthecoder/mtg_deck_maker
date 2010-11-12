@@ -13,3 +13,17 @@
 form.card {
   background: #eee;
 }
+
+table#cards {
+  form {
+    background: none;
+    padding: 0;
+    white-space: nowrap;
+  }
+}
+
+.deck_card {
+  .number {
+    text-align: right;
+  }
+}

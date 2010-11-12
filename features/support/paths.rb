@@ -26,8 +26,8 @@ module NavigationHelpers
     when /that card's page/
       card_path(@card)
 
-    when /the new deck page/
-      new_deck_path
+    when /the deck page/
+      deck_path
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:

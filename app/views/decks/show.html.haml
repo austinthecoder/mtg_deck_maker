@@ -1,0 +1,28 @@
+%h2 My Deck
+
+- unless @current_deck.deck_cards.empty?
+  %table#deck.data
+    %thead
+      %tr
+        %th.number 
+        %th 
+        %th.name Name
+        %th.mana_cost Cost
+        %th.conv_mana_cost Conv. Cost
+        %th.type Type
+        %th Pow./Tgh.
+    %tbody
+      - @current_deck.deck_cards.each do |dc|
+        = content_tag_for(:tr, dc.card, :class => [card_css_classes_string(dc.card), cycle(:odd, :even), 'deck_card'].join(' ')) do
+          %td.number
+            %strong= dc.number
+          %td
+            %em x
+          %td.name= dc.card.name
+          %td.mana_cost= dc.card.mana_cost
+          %td.conv_mana_cost= dc.card.converted_mana_cost
+          %td.type= dc.card.type_line
+          %td= dc.card.power_and_toughness
+- else
+  %h3 There are no cards in your deck.
+  

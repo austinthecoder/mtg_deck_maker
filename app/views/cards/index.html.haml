@@ -3,6 +3,7 @@
 %p= button 'Add a card', new_card_path
 
 - unless @cards.empty?
+  = will_paginate @cards
   %table#cards.data
     %thead
       %tr
@@ -15,6 +16,7 @@
         %th.rules_text Rules Text
         %th.power= link_to 'Pow.', cards_path(:sort => 'Pow.', :page => params[:page])
         %th.toughness= link_to 'Tgh.', cards_path(:sort => 'Tgh.', :page => params[:page])
+        %th Deck
         %th
     %tbody
       - @cards.each do |c|
@@ -29,7 +31,12 @@
           %td.power= c.power
           %td.toughness= c.toughness
           %td
+            = form_tag add_to_deck_card_path(c) do
+              = text_field_tag :number, 1, :size => 1
+              = submit_button 'add'
+          %td
             = link_to 'edit', edit_card_path(c)
+          
   = will_paginate @cards
 - else
   %h3 There are no cards!

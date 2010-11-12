@@ -12,11 +12,12 @@ gem 'heroku'
 gem 'will_paginate', '3.0.pre2'
 
 group :development, :test do
+  gem 'autotest'
   gem 'rspec-rails'
+  gem 'factory_girl_rails'
 end
 
 group :test do
-  gem 'factory_girl_rails'
   gem 'database_cleaner'
   gem 'launchy'
   gem 'cucumber'

@@ -2,11 +2,12 @@ Feature: Sorting Cards
 
   Scenario: Sorting
     Given the "SOM" set has been added
-    And the "Trigon of Infestation" card has been added to that set
-    And the "Echo Circlet" card has been added to that set
-    And the "Auriok Edgewright" card has been added to that set
-    And the "Abuna Acolyte" card has been added to that set
-    And the "Sunblast Angel" card has been added to that set
+    And the following cards have been added to that set:
+      | Trigon of Infestation |
+      | Echo Circlet          |
+      | Auriok Edgewright     |
+      | Abuna Acolyte         |
+      | Sunblast Angel        |
     And I am on the cards page
 
     When I sort the cards by "Name"

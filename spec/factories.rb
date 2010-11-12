@@ -4,6 +4,23 @@ end
 
 
 
+### Decks ###
+
+Factory.define :deck do |m|
+
+end
+
+
+
+### Deck Cards ###
+
+Factory.define :deck_card do |m|
+  m.association :deck
+  m.association :card
+end
+
+
+
 ### Sets ###
 
 Factory.define :mtg_set do |m|

@@ -8,6 +8,12 @@ Given /^(\d+) cards have been added to that set$/ do |num_cards|
   end
 end
 
+Given /^the following cards have been added to that set:$/ do |table|
+  table.raw.each do |row|
+    Given %|the "#{row[0]}" card has been added to that set|
+  end
+end
+
 ##################################################
 
 When /^I follow "([^"]*)" within the card's table header$/ do |link|
@@ -22,6 +28,21 @@ end
 
 When /^I follow "([^"]*)" within the pagination$/ do |link|
   with_scope('.pagination') { click_link(link) }
+end
+
+When /^I add "([^"]*)" of the "([^"]*)" card to the deck$/ do |num, card_name|
+  card = Card.find_by_name(card_name)
+  with_scope('#cards') do
+    with_scope("#card_#{@card.id}") do
+      fill_in("number", :with => num)
+      click_button("add")
+    end
+  end
+end
+
+Then /^I should see the table for the deck, which looks like:$/ do |table|
+  table.raw.should == tableish("table#deck tr", 'th, td').to_a
+  # table.diff! tableish("table#deck tr", 'th, td')
 end
 
 ##################################################

@@ -138,6 +138,42 @@ describe CardsController do
         put :update, @params
       end
     end
+
+    describe "POST add_to_deck" do
+      before do
+        @d = Factory(:deck)
+        @d.stub!(:add_card! => nil)
+        controller.stub!(:current_deck => @d)
+      end
+
+      it "finds the card" do
+        controller.stub!(:card => @card)
+        controller.should_receive(:find_card)
+        post :add_to_deck, @params
+      end
+
+      [
+        [nil, 1],
+        ['', 1],
+        ['a', 1],
+        ['0', 1],
+        ['2', 2]
+      ].each do |params_number, number|
+        context "when the number is #{params_number.inspect}" do
+          before { @params[:number] = params_number }
+
+          it do
+            @d.should_receive(:add_card!).with(@card, number)
+            post :add_to_deck, @params
+          end
+        end
+      end
+
+      it "redirects to the deck page" do
+        post :add_to_deck, @params
+        response.should redirect_to(deck_url)
+      end
+    end
   end
 
   ##################################################

@@ -16,7 +16,7 @@ Feature: Viewing cards
       | Name         | Kemba's Skyguard                                                       |
       | Mana Cost    | 1WW                                                                    |
       | Type         | Creature - Cat Knight                                                  |
-      | Rules Text   | When Kemba's Skyguard enters the battlefield, you gain 2 life. |
+      | Rules Text   | When Kemba's Skyguard enters the battlefield, you gain 2 life.         |
       | Power/Tough. | 2/2                                                                    |
       | Loyalty      |                                                                        |
       | Rarity       | Common                                                                 |
