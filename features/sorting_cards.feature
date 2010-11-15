@@ -1,7 +1,7 @@
 Feature: Sorting Cards
 
   Scenario: Sorting
-    Given the "SOM" set has been added
+    Given a set named "SOM"
     And the following cards have been added to that set:
       | Trigon of Infestation |
       | Echo Circlet          |

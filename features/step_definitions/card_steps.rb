@@ -1,3 +1,14 @@
+Given /^a card$/ do
+  Factory(:card)
+end
+
+Given /^a card named "([^"]*)" in (that set)$/ do |name, set|
+  Factory(:card, :name => name, :mtg_set => set)
+end
+
+
+
+
 Given /^the "([^"]*)" card has been added to that set$/ do |card_name|
   @card = Factory(card_name, :mtg_set => @mtg_set)
 end
@@ -12,6 +23,10 @@ Given /^the following cards have been added to that set:$/ do |table|
   table.raw.each do |row|
     Given %|the "#{row[0]}" card has been added to that set|
   end
+end
+
+Given /^"([^"]*)" of that card has been added to the deck$/ do |num|
+  post add_to_deck_card_path(@card), :number => num
 end
 
 ##################################################
@@ -41,7 +56,9 @@ When /^I add "([^"]*)" of the "([^"]*)" card to the deck$/ do |num, card_name|
 end
 
 Then /^I should see the table for the deck, which looks like:$/ do |table|
-  table.raw.should == tableish("table#deck tr", 'th, td').to_a
+  # table.map_column!(:)
+  p table.hashes
+  # table.raw.should == tableish("table#deck tr", 'th, td').to_a
   # table.diff! tableish("table#deck tr", 'th, td')
 end
 

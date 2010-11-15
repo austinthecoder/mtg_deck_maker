@@ -1,10 +1,13 @@
-Given /^the "([^"]*)" set has been added$/ do |name|
-  @mtg_set = case name
-  when 'SOM'
-    Factory(:som_set)
-  when 'ZEN'
-    Factory(:zen_set)
-  end
+Given /^a set$/ do
+  Factory(:mtg_set)
+end
+
+Given /^a set named "([^"]*)"$/ do |name|
+  Factory(:mtg_set, :name => name)
+end
+
+Given /^a set with (\d+) cards$/ do |num_cards|
+  Factory(:mtg_set, :num_cards => num_cards)
 end
 
 ##################################################

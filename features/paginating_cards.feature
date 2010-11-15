@@ -1,7 +1,7 @@
 Feature: Paginating cards
 
   Scenario: When there are less than 101 cards
-    Given the "SOM" set has been added
+    Given a set named "SOM"
     And 100 cards have been added to that set
 
     When I go to the cards page
@@ -11,7 +11,7 @@ Feature: Paginating cards
 
 
   Scenario: When there are more than 100 cards
-    Given the "SOM" set has been added
+    Given a set named "SOM"
     And 222 cards have been added to that set
 
     When I go to the cards page

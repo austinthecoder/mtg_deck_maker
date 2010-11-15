@@ -14,7 +14,7 @@
         %th.rarity= link_to 'Rarity', cards_path(:sort => 'Rarity', :page => params[:page])
         %th.type= link_to 'Type', cards_path(:sort => 'Type', :page => params[:page])
         %th.rules_text Rules Text
-        %th.power= link_to 'Pow.', cards_path(:sort => 'Pow.', :page => params[:page])
+        %th.number.power= link_to 'Pow.', cards_path(:sort => 'Pow.', :page => params[:page])
         %th.toughness= link_to 'Tgh.', cards_path(:sort => 'Tgh.', :page => params[:page])
         %th Deck
         %th
@@ -28,10 +28,10 @@
           %td.rarity= c.rarity.to_s(:short)
           %td.type= c.type_line
           %td.rules_text= raw(c.rules_text_html)
-          %td.power= c.power
+          %td.number.power= c.power
           %td.toughness= c.toughness
           %td
-            = form_tag add_to_deck_card_path(c) do
+            = form_tag add_to_deck_card_path(c), :method => :get do
               = text_field_tag :number, 1, :size => 1
               = submit_button 'add'
           %td

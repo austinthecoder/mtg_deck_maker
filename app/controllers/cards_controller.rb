@@ -12,7 +12,7 @@ class CardsController < ApplicationController
   }
 
   before_filter :build_card, :only => %w(new create)
-  before_filter :find_card, :only => %w(show edit update add_to_deck)
+  before_filter :find_card, :only => %w(show edit update remove_from_deck add_to_deck)
 
   respond_to :html
 
@@ -52,6 +52,11 @@ class CardsController < ApplicationController
 
   def add_to_deck
     current_deck.add_card!(card, [params[:number].to_i, 1].max)
+    redirect_to deck_url
+  end
+
+  def remove_from_deck
+    current_deck.remove_card!(card, [params[:number].to_i, 1].max)
     redirect_to deck_url
   end
 

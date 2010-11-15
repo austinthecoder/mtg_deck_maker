@@ -6,7 +6,8 @@ MtgDeckMaker::Application.routes.draw do
 
   resources :cards, :except => %w(destroy) do
     member do
-      post 'add_to_deck'
+      get 'add_to_deck'
+      get 'remove_from_deck'
     end
   end
 

@@ -29,8 +29,8 @@ Feature: Sets
 
 
   Scenario: Viewing all sets (when there are some)
-    Given the "SOM" set has been added
-    And the "ZEN" set has been added
+    Given a set named "SOM"
+    And a set named "ZEN"
 
     When I go to the sets page
     Then I should see the sets table, which looks like:
@@ -41,7 +41,7 @@ Feature: Sets
 
 
   # Scenario: Editing a set
-  #   Given the "SOM" set has been added
+  #   Given a set named "SOM"
   #
   #   When I go to the sets page
   #   And I follow "edit" for that set

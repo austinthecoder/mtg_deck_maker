@@ -11,6 +11,7 @@
         %th.conv_mana_cost Conv. Cost
         %th.type Type
         %th Pow./Tgh.
+        %th 
     %tbody
       - @current_deck.deck_cards.each do |dc|
         = content_tag_for(:tr, dc.card, :class => [card_css_classes_string(dc.card), cycle(:odd, :even), 'deck_card'].join(' ')) do
@@ -18,11 +19,20 @@
             %strong= dc.number
           %td
             %em x
-          %td.name= dc.card.name
+          %td.name= link_to dc.card.name, card_path(dc.card)
           %td.mana_cost= dc.card.mana_cost
           %td.conv_mana_cost= dc.card.converted_mana_cost
           %td.type= dc.card.type_line
           %td= dc.card.power_and_toughness
+          %td
+            = link_to add_to_deck_card_path(dc.card) do
+              = image_tag 'icons/add.png', :alt => 'add one', :class => 'inline', :title => 'Add one'
+            |
+            = link_to remove_from_deck_card_path(dc.card) do
+              = image_tag 'icons/delete.png', :alt => 'remove one', :class => 'inline', :title => 'Remove one'
+            |
+            = link_to remove_from_deck_card_path(dc.card, :number => dc.number) do
+              = image_tag 'icons/cross.png', :alt => 'remove all', :class => 'inline', :title => 'Remove all'
 - else
   %h3 There are no cards in your deck.
   

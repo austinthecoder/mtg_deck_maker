@@ -25,9 +25,12 @@
       %h1= link_to "MTG Deck Maker", root_path
     #menu
       %p
+        = link_to "My Deck", deck_path
+        |
         = link_to "Cards", cards_path
         |
         = link_to "Sets", mtg_sets_path
+        
     - if notice
       %p.notice= notice
     - if alert

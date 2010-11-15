@@ -9,15 +9,15 @@ Feature: Adding Cards
 
 
   Scenario: Adding a valid card
-    Given the "SOM" set has been added
+    Given a set named "Scars of Mirrodin"
 
     When I go to the new card page
     And I fill in the following:
-      | Name            | Venser, the Sojourner |
-      | Mana cost       | 3WU                   |
-      | Type            | Planeswalker — Venser |
-      | Number          | 135                   |
-      | Loyalty         | 3                     |
+      | Name      | Venser, the Sojourner |
+      | Mana cost | 3WU                   |
+      | Type      | Planeswalker — Venser |
+      | Number    | 135                   |
+      | Loyalty   | 3                     |
     And I fill in "Rules text" with:
       """
       +2: Exile target permanent you own. Return it to the battlefield under your control at the beginning of the next end step.
@@ -34,7 +34,7 @@ Feature: Adding Cards
 
 
   Scenario: Adding an invalid card
-    Given the "SOM" set has been added
+    Given a set with 100 cards
 
     When I go to the new card page
     And I press "Add this card"
@@ -47,4 +47,4 @@ Feature: Adding Cards
       | Mana cost | IUHKJN |
     And I press "Add this card"
     Then I should see "Mana cost has invalid format"
-    Then I should see "Number is too high (the set contains 249 cards)"
+    Then I should see "Number is too high (the set contains 100 cards)"

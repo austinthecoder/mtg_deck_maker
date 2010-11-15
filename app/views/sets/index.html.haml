@@ -10,13 +10,17 @@
       %tr
         %th Name
         %th Date Released
+        %th Cards in Set
+        %th Cards Added
         %th 
     %tbody
       - MtgSet.all.each do |s|
         = content_tag_for(:tr, s, :class => cycle(:odd, :even)) do
           %td= s.name
           %td= s.released_at.strftime("%b %d, %Y")
-          %td
+          %td.number= s.num_cards
+          %td.number= s.cards.size
+          %td 
 - else
   %h3 There are no sets!
   %p= link_to "Add a set", new_mtg_set_path

@@ -14,6 +14,7 @@ class MtgSet < ActiveRecord::Base
 
   # associations
   has_and_belongs_to_many :formats
+  has_many :cards
 
   # callbacks
   after_initialize do

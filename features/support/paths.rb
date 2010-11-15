@@ -23,8 +23,8 @@ module NavigationHelpers
     when /the edit page for that card/
       edit_card_path(@card)
 
-    when /that card's page/
-      card_path(@card)
+    when /^(that card)'s page$/
+      card_path($1)
 
     when /the deck page/
       deck_path
