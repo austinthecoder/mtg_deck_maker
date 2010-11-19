@@ -21,10 +21,10 @@ module NavigationHelpers
       new_card_path
 
     when /the edit page for that card/
-      edit_card_path(@card)
+      edit_card_path(that_card)
 
-    when /^(that card)'s page$/
-      card_path($1)
+    when /^that card's page$/
+      card_path(that_card)
 
     when /the deck page/
       deck_path

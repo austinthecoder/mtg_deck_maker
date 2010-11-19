@@ -10,16 +10,25 @@ Given /^a set with (\d+) cards$/ do |num_cards|
   Factory(:mtg_set, :num_cards => num_cards)
 end
 
-##################################################
+Given /^the following sets:$/ do |table|
+  table.map_headers!('Name' => :name, 'Date Released' => :released_at)
+  table.hashes.each { |attrs| Factory(:mtg_set, attrs) }
+end
 
-When /^I follow "([^"]*)" for that set$/ do |link|
-  with_scope("#mtg_sets #mtg_set_#{@mtg_set.id}") do
-    click_link(link)
+Given /^a set with the attributes:$/ do |table|
+  attrs = {}
+  table.rows_hash.each do |k, v|
+    attrs[k.downcase.gsub(' ', '_').to_sym] = v
   end
+  Factory(:mtg_set, attrs)
 end
 
 ##################################################
 
-Then /^I should see the sets table, which looks like:$/ do |table|
+
+
+##################################################
+
+Then /^I should see the sets table, i\.e\.:$/ do |table|
   table.diff! tableish('#mtg_sets tr', 'th, td')
 end

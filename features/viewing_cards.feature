@@ -8,8 +8,24 @@ Feature: Viewing cards
 
 
   Scenario: Viewing an individual card
-    Given a set
-    And a card
+    Given a set named "Fooey"
+    And a card in that set with the attributes:
+      | Name       | My Card              |
+      | Mana Cost  | 1W                   |
+      | Type       | Creature             |
+      | Rules Text | This card has rules! |
+      | Power      | 2                    |
+      | Toughness  | 3                    |
+      | Loyalty    | 3                    |
+      | Rarity     | common               |
 
     When I go to that card's page
-    Then I should see the table for that card
+    Then I should see that card's table, i.e.:
+      | Name         | My Card              |
+      | Mana Cost    | 1W                   |
+      | Type         | Creature             |
+      | Rules Text   | This card has rules! |
+      | Power/Tough. | 2/3                  |
+      | Loyalty      | 3                    |
+      | Rarity       | Common               |
+      | Set          | Fooey                |

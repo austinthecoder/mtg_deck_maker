@@ -11,7 +11,9 @@ Feature: Paginating cards
 
 
   Scenario: When there are more than 100 cards
-    Given a set named "SOM"
+    Given a set with the attributes:
+      | Name      | SOM |
+      | Num Cards | 250 |
     And 222 cards have been added to that set
 
     When I go to the cards page

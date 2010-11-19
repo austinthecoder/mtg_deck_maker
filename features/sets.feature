@@ -29,14 +29,17 @@ Feature: Sets
 
 
   Scenario: Viewing all sets (when there are some)
-    Given a set named "SOM"
-    And a set named "ZEN"
+    Given the following sets:
+      | Name | Date Released     |
+      | SOM  | November 16, 2009 |
+      | ZEN  | October 3, 2010   |
 
     When I go to the sets page
-    Then I should see the sets table, which looks like:
-      | Name              | Date Released |
-      | Scars of Mirrodin | Oct 01, 2010  |
-      | Zendikar          | Oct 02, 2009  |
+    Then I should see the sets table, i.e.:
+      | Name | Date Released |
+      | SOM  | Nov 16, 2009  |
+      | ZEN  | Oct 03, 2010  |
+
 
 
 

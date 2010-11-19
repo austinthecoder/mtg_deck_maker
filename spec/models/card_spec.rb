@@ -79,6 +79,13 @@ describe Card do
     end
   end
 
+  describe "normalizations" do
+    ["", " "].each do |ws|
+      it { should normalize_attribute(:power).from(ws).to(nil) }
+      it { should normalize_attribute(:toughness).from(ws).to(nil) }
+    end
+  end
+
   Card::COLORS.each do |color|
     [color, "#{color}?"].each do |method|
       describe method do

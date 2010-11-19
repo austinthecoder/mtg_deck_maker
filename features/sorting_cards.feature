@@ -2,12 +2,13 @@ Feature: Sorting Cards
 
   Scenario: Sorting
     Given a set named "SOM"
-    And the following cards have been added to that set:
-      | Trigon of Infestation |
-      | Echo Circlet          |
-      | Auriok Edgewright     |
-      | Abuna Acolyte         |
-      | Sunblast Angel        |
+    And the following cards in that set:
+      | Name                  | Mana Cost | Rarity      | Type                     | Power | Toughness |
+      | Trigon of Infestation | 4         | uncommon    | Artifact                 |       |           |
+      | Echo Circlet          | 2         | common      | Artifact - Equipment     |       |           |
+      | Auriok Edgewright     | WW        | mythic rare | Creature - Human Soldier | 2     | 2         |
+      | Abuna Acolyte         | 1W        | uncommon    | Creature - Cat Cleric    | 1     | 1         |
+      | Sunblast Angel        | 4WW       | rare        | Creature - Angel         | 4     | 5         |
     And I am on the cards page
 
     When I sort the cards by "Name"
@@ -28,11 +29,11 @@ Feature: Sorting Cards
 
     When I sort the cards by "Rarity"
     Then the "Rarity" column should look like:
-      | C |
-      | U |
-      | U |
-      | U |
-      | R |
+      | C  |
+      | U  |
+      | U  |
+      | R  |
+      | MR |
 
     When I sort the cards by "Type"
     Then the "Type" column should look like:

@@ -7,6 +7,9 @@ class Card < ActiveRecord::Base
   # associations
   belongs_to :mtg_set
 
+  # normalizations
+  normalize_attributes :power, :toughness
+
   # validations
   validates :name, :presence => true, :uniqueness => {:scope => :mtg_set_id}
 
