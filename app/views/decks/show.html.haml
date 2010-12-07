@@ -4,34 +4,31 @@
   %table#deck.data
     %thead
       %tr
-        %th.number 
-        %th 
+        %th
+        %th.number
         %th.name Name
         %th.mana_cost Cost
         %th.conv_mana_cost Conv. Cost
         %th.type Type
         %th Pow./Tgh.
-        %th 
+        %th
     %tbody
       - @current_deck.deck_cards.each do |dc|
         = content_tag_for(:tr, dc.card, :class => [card_css_classes_string(dc.card), cycle(:odd, :even), 'deck_card'].join(' ')) do
-          %td.number
-            %strong= dc.number
           %td
-            %em x
+            = link_to adjust_in_deck_card_path(dc.card, :number => 1), :class => 'add' do
+              = image_tag 'icons/add.png', :alt => 'add one', :class => 'inline', :title => 'Add one'
+            = link_to adjust_in_deck_card_path(dc.card, :number => -1), :class => 'remove' do
+              = image_tag 'icons/delete.png', :alt => 'remove one', :class => 'inline', :title => 'Remove one'
+          %td.number
+            %strong.text= dc.number
           %td.name= link_to dc.card.name, card_path(dc.card)
           %td.mana_cost= dc.card.mana_cost
           %td.conv_mana_cost= dc.card.converted_mana_cost
           %td.type= dc.card.type_line
           %td= dc.card.power_and_toughness
           %td
-            = link_to add_to_deck_card_path(dc.card) do
-              = image_tag 'icons/add.png', :alt => 'add one', :class => 'inline', :title => 'Add one'
-            |
-            = link_to remove_from_deck_card_path(dc.card) do
-              = image_tag 'icons/delete.png', :alt => 'remove one', :class => 'inline', :title => 'Remove one'
-            |
-            = link_to remove_from_deck_card_path(dc.card, :number => dc.number) do
+            = link_to remove_all_from_deck_card_path(dc.card), :class => 'remove_all' do
               = image_tag 'icons/cross.png', :alt => 'remove all', :class => 'inline', :title => 'Remove all'
 - else
   %h3 There are no cards in your deck.

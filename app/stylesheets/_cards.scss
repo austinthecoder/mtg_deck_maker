@@ -17,6 +17,14 @@ table#cards {
     padding: 0;
     white-space: nowrap;
   }
+  .actions ul {
+    margin: 0;
+
+    li {
+      list-style-type: none;
+      white-space: nowrap;
+    }
+  }
 }
 
 .deck_card {

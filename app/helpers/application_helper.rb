@@ -1,5 +1,14 @@
 module ApplicationHelper
 
+  def javascripts
+    %w(
+      https://www.google.com/jsapi
+      https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js
+      livequery.min.js
+      application.js
+    )
+  end
+
   def submit_button(name, options = {})
     options.merge!(:type => 'submit')
     options[:class] = options[:class].to_s.split(' ').push('btn').uniq.join(' ')

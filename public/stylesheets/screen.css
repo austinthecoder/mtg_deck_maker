@@ -680,11 +680,12 @@ button {
 body {
   border-top: 10px solid #933;
   font-color: #333333;
+  font-family: "Droid Serif", "Lucida Grande", Helvetica, Arial, sans-serif;
   font-size: 13px;
   padding: 20px 30px;
 }
 
-/* line 8, ../../app/stylesheets/_elements.scss */
+/* line 9, ../../app/stylesheets/_elements.scss */
 a {
   color: #3333ff;
 }
@@ -743,8 +744,17 @@ table#cards form {
   padding: 0;
   white-space: nowrap;
 }
-
+/* line 20, ../../app/stylesheets/_cards.scss */
+table#cards .actions ul {
+  margin: 0;
+}
 /* line 23, ../../app/stylesheets/_cards.scss */
+table#cards .actions ul li {
+  list-style-type: none;
+  white-space: nowrap;
+}
+
+/* line 31, ../../app/stylesheets/_cards.scss */
 .deck_card .number {
   text-align: right;
 }

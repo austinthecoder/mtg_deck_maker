@@ -7,6 +7,7 @@
   %table#cards.data
     %thead
       %tr
+        %th
         %th.name= link_to 'Name', cards_path(:sort => 'Name', :page => params[:page])
         %th.mtg_set Set
         %th.mana_cost Cost
@@ -16,11 +17,16 @@
         %th.rules_text Rules Text
         %th.number.power= link_to 'Pow.', cards_path(:sort => 'Pow.', :page => params[:page])
         %th.toughness= link_to 'Tgh.', cards_path(:sort => 'Tgh.', :page => params[:page])
-        %th Deck
         %th
     %tbody
       - @cards.each do |c|
         = content_tag_for(:tr, c, :class => [card_css_classes_string(c), cycle(:odd, :even)].join(' ')) do
+          %td.actions
+            %ul
+              - unless @current_deck.cards.include?(c)
+                %li
+                  = link_to adjust_in_deck_card_path(c, :number => 1), :class => 'add' do
+                    = image_tag 'icons/add.png', :alt => 'add to deck', :class => 'inline', :title => 'Add to deck'
           %td.name= link_to c.name, card_path(c)
           %td.mtg_set= c.mtg_set.code
           %td.mana_cost= c.mana_cost
@@ -30,12 +36,12 @@
           %td.rules_text= raw(c.rules_text_html)
           %td.number.power= c.power
           %td.toughness= c.toughness
-          %td
-            = form_tag add_to_deck_card_path(c), :method => :get do
-              = text_field_tag :number, 1, :size => 1
-              = submit_button 'add'
-          %td
-            = link_to 'edit', edit_card_path(c)
+          %td.actions
+            %ul
+              %li
+                = link_to edit_card_path(c) do
+                  = image_tag 'icons/pencil.png', :alt => 'edit card', :class => 'inline', :title => 'Edit card'
+            
           
   = will_paginate @cards
 - else

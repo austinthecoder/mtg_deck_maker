@@ -12,7 +12,7 @@ class CardsController < ApplicationController
   }
 
   before_filter :build_card, :only => %w(new create)
-  before_filter :find_card, :only => %w(show edit update remove_from_deck add_to_deck)
+  before_filter :find_card, :only => %w(show edit update adjust_in_deck remove_all_from_deck)
 
   respond_to :html
 
@@ -50,14 +50,20 @@ class CardsController < ApplicationController
     respond_with(card, :location => cards_url)
   end
 
-  def add_to_deck
-    current_deck.add_card!(card, [params[:number].to_i, 1].max)
-    redirect_to deck_url
+  def adjust_in_deck
+    current_deck.adjust_card!(card, params[:number].to_i)
+    respond_to do |f|
+      f.html { redirect_to deck_url }
+      f.json { render :json => nil }
+    end
   end
 
-  def remove_from_deck
-    current_deck.remove_card!(card, [params[:number].to_i, 1].max)
-    redirect_to deck_url
+  def remove_all_from_deck
+    current_deck.delete_card!(card)
+    respond_to do |f|
+      f.html { redirect_to deck_url }
+      f.json { render :json => nil }
+    end
   end
 
   ##################################################
