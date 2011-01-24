@@ -3,7 +3,7 @@ google.load("webfont", "1");
 google.setOnLoadCallback(function() {
   WebFont.load({
     google: {
-      families: ['Droid Serif:regular,italic,bold,bolditalic']
+      families: ['Droid Serif:regular,italic,bold']
     }
   });
 });

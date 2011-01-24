@@ -1,12 +1,18 @@
 module ApplicationHelper
 
   def javascripts
-    %w(
-      https://www.google.com/jsapi
-      https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js
-      livequery.min.js
-      application.js
-    )
+    # https://www.google.com/jsapi
+    google_api_key = {
+      'development' => 'ABQIAAAAuXkIcP0Zw8v8jCUkBC-IBRRoc4utMzBXt_bPptjFTNgmXxPT2RRLIIOivAWIXXqgqRHu4g1HXdWcDw',
+      'staging' => 'ABQIAAAAuXkIcP0Zw8v8jCUkBC-IBRTX6enKw2hN_PRkDtXDj_raCtHNUxS2z8EPGpWNwA9UpCbYj5jShGL3jQ',
+      'production' => ''
+    }[Rails.env]
+    [
+      "https://www.google.com/jsapi?key=#{google_api_key}",
+      'https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js',
+      'livequery.min.js',
+      'application.js'
+    ]
   end
 
   def submit_button(name, options = {})
